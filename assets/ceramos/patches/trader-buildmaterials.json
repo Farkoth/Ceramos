@@ -4,46 +4,6 @@
     	"path": "/attributes/tradeProps/selling/list/-",
     	"value": [
 			{
-			"code": "ceramos:ceramatile-colorful",
-			"type": "item",
-			"stacksize": 12,
-			"stock": { "avg": 8, "var": 0.25 },
-			"price": { "avg": 14, "var": 1.5 }
-			},
-
-			{
-			"code": "ceramos:ceramatile-crosslines",
-			"type": "item",
-			"stacksize": 12,
-			"stock": { "avg": 8, "var": 0.25 },
-			"price": { "avg": 14, "var": 1.5 }
-			},
-
-			{
-			"code": "ceramos:ceramatile-flower",
-			"type": "item",
-			"stacksize": 12,
-			"stock": { "avg": 8, "var": 0.25 },
-			"price": { "avg": 14, "var": 1.5 }
-			},
-
-			{
-			"code": "ceramos:ceramatile-redcyan",
-			"type": "item",
-			"stacksize": 12,
-			"stock": { "avg": 8, "var": 0.25 },
-			"price": { "avg": 14, "var": 1.5 }
-			},
-
-			{
-			"code": "ceramos:ceramatile-parsley",
-			"type": "item",
-			"stacksize": 12,
-			"stock": { "avg": 8, "var": 0.25 },
-			"price": { "avg": 14, "var": 1.5 }
-			},
-
-			{
 			"code": "ceramos:ceramatile-petal",
 			"type": "item",
 			"stacksize": 12,
@@ -52,14 +12,7 @@
 			},
 
 			{
-			"code": "ceramos:ceramatile-triangles",
-			"type": "item",
-			"stacksize": 12,
-			"stock": { "avg": 8, "var": 0.25 },
-			"price": { "avg": 14, "var": 1.5 }
-			},
-			{
-			"code": "ceramos:ceramatile-white",
+			"code": "ceramos:ceramatile-stamens",
 			"type": "item",
 			"stacksize": 12,
 			"stock": { "avg": 8, "var": 0.25 },
@@ -67,7 +20,7 @@
 			},
 
 			{
-			"code": "ceramos:ceramatile-green",
+			"code": "ceramos:ceramatile-cyanstars",
 			"type": "item",
 			"stacksize": 12,
 			"stock": { "avg": 8, "var": 0.25 },
@@ -75,7 +28,7 @@
 			},
 
 			{
-			"code": "ceramos:ceramatile-dandelion",
+			"code": "ceramos:ceramatile-parsley",
 			"type": "item",
 			"stacksize": 12,
 			"stock": { "avg": 8, "var": 0.25 },
