@@ -1,0 +1,46 @@
+{
+	"code": "spatulahead",
+	"drawtype": "json",
+	"shape": { "base": "ceramos:item/toolhead/spatulahead" },
+	"variantgroups": [
+		{ "code": "material", "states": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] }
+			],
+
+	"textures": {
+		"metal": { "base": "game:block/metal/ingot/{material}" }
+	},
+
+	"attributes": {
+		"rackable": false
+	},
+
+	"creativeinventory": { "general": [ "*" ], "items": [ "*" ], "ceramos": [ "*" ] },
+	"guiTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0},
+		"rotation": { "x": -31, "y": 124, "z": -11 },
+		"origin": {"x": 0.8,"y": 0,"z": 0.5},
+		"scale": 2
+	},
+
+	"fpHandTransform": {
+		"translation": {"x": 0.1,"y": 0.3,"z": 0},
+		"rotation": {"x": 50,"y": -4,"z": -100},
+		"origin": {"x": 0.5,"y": 0,"z": 0.5},
+		"scale": 2.15
+	},
+
+	"groundTransform": {
+		"translation": {"x": 0,"y": 0,"z": 0},
+		"rotation": {"x": 0,"y": 0,"z": 0},
+		"origin": {"x": 0.5,"y": 0,"z": 0.5},
+		"scale": 4.31
+	},
+	
+	"tpHandTransform": {
+		"translation": {"x": -1,"y": -0.2,"z": -0.6},
+		"rotation": {"x": -95,"y": -180,"z": -1},
+		"origin": {"x": 0.5,"y": 0,"z": 0.5},
+		"scale": 0.76
+	}
+	
+}

@@ -1,0 +1,10 @@
+{
+	"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	"pattern": [[
+		"_####___####_",
+		"_#####_#####_",
+		"_####___####_"
+	]],
+	"name": "Spatulahead",
+	"output": { "type": "item", "code": "ceramos:spatulahead-{metal}", "quantity": 2  }
+}

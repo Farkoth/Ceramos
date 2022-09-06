@@ -1,0 +1,15 @@
+[
+	{
+	"ingredientPattern": "KL,W_",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 5 },
+		"L": { "type": "item", "code": "game:flaxfibers", "quantity": 4 },
+		"W": { "type": "item", "code": "game:plank-*", "quantity": 1, "name": "wood", "allowedVariants": ["birch", "oak", "maple", "pine"] }
+	},
+	"width": 2,
+	"height": 2,
+	"name": "Paint Brush",
+	"output": { "type": "item", "code": "ceramos:brush-{wood}", "quantity": 1 }
+	}
+	
+]

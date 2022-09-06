@@ -1,0 +1,66 @@
+{
+    "code": "leadfrit",
+	"variantgroups": [
+		{ "code": "type", "states": [ "blend", "cooked", "powder" ] }
+	],
+
+	"attributes": {	},
+	"shape": { "base": "ceramos:item/resource/crushed/{type}" },
+    "texture": { "base": "ceramos:item/resource/leadfrit/{type}" },
+    "creativeinventory": { "general": ["*"], "items": ["*"], "ceramos": ["*"] },
+	"combustiblePropsByType": {
+		"*-blend*": {
+			"meltingPoint": 950,
+			"meltingDuration": 15,
+			"smeltingType": "convert",
+			"smeltedStack": { "type": "item", "code": "ceramos:leadfrit-cooked" },
+			"requiresContainer": false
+		}
+    },
+
+    "grindingPropsByType": {
+		"*-cooked*": { "groundStack": { "type": "item", "code": "ceramos:leadfrit-powder" } }
+    },
+		
+	"maxstacksize": 64,
+    "materialDensity": 500,
+	"guiTransformByType": {
+		"*-cooked*":{
+			"translation": { "x": 0, "y": 0, "z": -25 },
+			"rotation": { "x": 171, "y": 57, "z": -20 },
+			"origin": { "x": 0.46, "y": 0.11, "z": 0.39 },
+			"scale": 2.64
+		},
+		"*-blend*":{
+			"translation": { "x": 0, "y": 0, "z": -25 },
+			"rotation": { "x": 171, "y": 57, "z": -20 },
+			"origin": { "x": 0.46, "y": 0.11, "z": 0.39 },
+			"scale": 2.64
+		},
+		"*-powder*":{
+			"translation": { "x": -2, "y": 1, "z": -25 },
+			"rotation": { "x": 158, "y": 28, "z": 3 },
+			"origin": { "x": 0.29, "y": -0.05, "z": 0.8 },
+			"scale": 2.5
+		}
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0.1, "y": 0.16, "z": 0 },
+		"rotation": { "x": 37, "y": 77, "z": 2 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 1.95
+	},
+
+	"tpHandTransform": {
+		"translation": { "x": -1.53, "y": -1.1, "z": -0.7 },
+		"rotation": { "x": 19, "y": 26, "z": -83 },
+		"scale": 0.48
+	},
+	
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 3, "y": 1, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2.65	
+	}
+}

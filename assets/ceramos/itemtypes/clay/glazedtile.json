@@ -1,0 +1,86 @@
+{
+	"code": "rawglazedtile",
+	"behaviors": [
+		{
+		"name": "GroundStorable",
+			"properties": {
+			"layout": "Stacking",
+			"placeRemoveSound": "game:sounds/block/ceramicplace",
+			"stackingModel": "ceramos:block/layers/pileoftiles.json",
+			"collisionBox": { "x1": 0.0312, "y1": 0, "z1": 0.0312, "x2": 0.95, "y2": 0.0625, "z2": 0.95 },
+			"cbScaleYByLayer": 1,
+			"tessQuantityElements": 3,
+			"stackingCapacity": 16,
+			"transferQuantity": 1,
+			"bulkTransferQuantity": 2,
+			"maxFireable": 10
+			}
+		}
+	],
+	
+	"attributes": 
+		{
+		"handbook": { "groupBy": "rawglazedtile-*" }
+		},
+	
+	"variantgroups": [
+		{ "code": "type",
+		"states":
+				["parsley", "stamens", "petal", "cyanstars", "curles", "triangles",
+				"crosslines", "colorful", "flower", "junglevines"] }
+	],
+
+	"shape": { "base": "ceramos:block/clay/ceramatile" },
+	"maxstacksize": 12,
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "ceramos": ["*"] },
+	"replaceable": 700,
+	"resistance": 1,
+	"emitSideAo": { "all": false },
+	"textures": {
+		"up": { "base": "ceramos:item/rawglazedtile/{type}" },
+		"all": { "base": "ceramos:item/resource/raw" }
+	},
+
+	"combustibleProps": {
+		"smeltingPoint": 850,
+		"meltingDuration": 15,
+		"smeltingType": "fire",
+		"smeltedStack": { "type": "item", "code": "ceramos:ceramatile-{type}" },
+		"requiresContainer": false
+	},
+
+	"guiTransform": {
+		"rotate": false,
+		"translation": { "x": 3, "y": -6, "z": 0 },
+		"rotation": { "x": 155, "y": 135, "z": 0 },
+		"origin": { "x": 0, "y": 0, "z": 0 },
+		"scale": 1.1
+	},
+
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0.03, "z": 0 },
+		"rotation": { "x": 0, "y": 28, "z": 0 },
+		"origin": { "x": 1, "y": 0, "z": 0.1 },
+		"scale": 3.9
+	},
+
+	"tpHandTransform": {
+		"translation": { "x": -2.2, "y": -0.1, "z": 0.12 },
+		"rotation": { "x": -90, "y": 178, "z": -177 },
+		"origin": { "x": 1, "y": 0, "z": 0 },
+		"scale": 0.6
+	},
+
+	"fpHandTransform": {
+		"translation": { "x": -1, "y": 0.2, "z": 1 },
+		"rotation": { "x": 88, "y": -19, "z": 88 }
+	},
+	
+	"sounds": {
+		
+		"break": "game:block/ceremicbreak",
+		"hit": "game:block/ceramichit",
+		"walk": "game:walk/stone2"
+	}
+}

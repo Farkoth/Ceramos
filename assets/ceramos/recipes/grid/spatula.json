@@ -1,0 +1,14 @@
+[
+	{
+	"ingredientPattern": "H,S",
+	"ingredients": {
+		"H": { "type": "item", "code": "ceramos:spatulahead-*", "quantity": 1, "name": "metal", "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] },
+		"S": { "type": "item", "code": "game:stick", "quantity": 1 }
+	},
+	"width": 1,
+	"height": 2,
+	"name": "Spatula",
+	"output": { "type": "item", "code": "ceramos:spatula-{metal}", "quantity": 1 }
+	}
+
+]

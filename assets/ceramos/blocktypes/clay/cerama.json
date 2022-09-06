@@ -1,0 +1,115 @@
+{
+	"code": "cerama",
+	"behaviors": [ 
+		{
+		"name": "Decor", 
+		"properties":
+			{
+			"sides": [ "north", "east", "south", "west", "up" ],
+			"sidedVariants": true,
+			"thickness": 0.003
+			}
+		}
+	],	
+		
+	"attributes": 
+		{
+		"handbook": { "groupBy": "cerama-*" }
+		},
+	"variantgroups": [
+		{ "code": "type", 
+				"states": 
+				["parsley", "stamens", "petal", "cyanstars", "curles", "triangles",
+				"crosslines", "colorful", "flower", "junglevines"] },
+		{ "code": "side", "states": [ "north", "east", "south", "west", "up", "down"] }
+	],
+
+	"shapeByType": {
+		"*-down": { "base": "ceramos:block/clay/cerama" },
+		"*-up": { "base": "ceramos:block/clay/cerama", "rotateX": 180 }, 
+		"*-north": { "base": "ceramos:block/clay/cerama", "rotateX": 90 },
+		"*-east": { "base": "ceramos:block/clay/cerama", "rotateX": 90, "rotateY": 180, "rotateZ": 270 },
+		"*-west": { "base": "ceramos:block/clay/cerama", "rotateX": 90, "rotateY": 0, "rotateZ": 270 },
+		"*-south": { "base": "ceramos:block/clay/cerama", "rotateX": 270 }
+	},
+	
+	"sidesolidByType": {
+		"*-down": { "all": false, "down": true },
+		"*-up": { "all": false, "up": true },
+		"*-north": { "all": false, "north": true },
+		"*-east": { "all": false, "east": true },
+		"*-west": { "all": false, "west": true },
+		"*-south": { "all": false, "south": true }
+	},
+
+	"sideopaqueByType": {
+		"*-down": { "all": false, "down": true },
+		"*-up": { "all": false, "up": true },
+		"*-north": { "all": false, "north": true },
+		"*-east": { "all": false, "east": true },
+		"*-west": { "all": false, "west": true },
+		"*-south": { "all": false, "south": true }
+	},
+
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { "general": ["*-down"], "decorative": ["*-down"], "ceramos": ["*-down"] },
+	"replaceable": 900,
+	"resistance": 1,
+	"lightAbsorption": 1,
+	"emitSideAo": { "all": false },
+	"textures": {
+		"up": { "base": "ceramos:block/cerama/{type}" },
+		"all": { "base": "ceramos:item/resource/fired" }
+				
+	},
+	
+	"drops": [
+		{
+			"type": "item", 
+			"code": "ceramos:ceramatile-{type}",
+			"quantity": { "avg": 0.7 }			
+			
+		}
+	],
+
+	"vertexFlags": { "zOffset": 1 },
+	
+	
+	"guiTransform": {
+		"rotate": false,
+		"translation": { "x": -1, "y": 6, "z": 0 },
+		"rotation": { "x": -38, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.1 },
+		"scale": 1.1
+	},
+
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0.03, "z": 0 },
+		"rotation": { "x": 0, "y": 28, "z": 0 },
+		"origin": { "x": 1, "y": 0, "z": 0.1 },
+		"scale": 3.9
+	},
+
+	"heldTpIdleAnimation": "holdbothhandslarge",
+	"heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": { "x": -3.2, "y": -0.35, "z": 0.1 },
+		"rotation": { "x": 96, "y": -21, "z": -75 },
+		"origin": { "x": 1, "y": 0, "z": 0 },
+		"scale": 0.39
+	},
+
+	"fpHandTransform": {
+		"translation": { "x": -1.7, "y": 0, "z": 1 },
+		"rotation": { "x": 82, "y": -45, "z": 0 }
+	},
+
+	"sounds": {
+		"place": "game:block/ceramicplace",
+		"break": "game:block/ceremicbreak",
+		"hit": "game:block/ceramichit",
+		"walk": "game:walk/stone2"
+	},
+	
+	"materialDensity": 2500
+}

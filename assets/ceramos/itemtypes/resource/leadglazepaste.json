@@ -1,0 +1,49 @@
+{
+	"code": "leadglazepaste",
+	"variantgroups": [
+		{ "code": "type","states": [ "base", "blue", "red", "yellow", "purple", "green", "orange", "black", "gray", "pink", "white" ] }
+	],
+
+	"maxstacksize": 32,
+	"shape": { "base": "ceramos:item/resource/leadglazepaste" },
+	"texture": { "base": "ceramos:item/resource/leadglazepaste/{type}" },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "ceramos": ["*"] },
+	"heldTpIdleAnimation": "holdbothhands",
+	
+	"attributes": {
+		"displaycaseable": true, 
+		"shelvable": true,
+		"onDisplayTransform": {
+			"translation": { "x": 0, "y": -0.05, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 0.9
+		}
+	},
+
+	"materialDensity": 500,
+	"guiTransform": {
+		"translation": { "x": 3, "y": -3, "z": 0 },
+		"rotation": { "x": 142, "y": -12, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+		"scale": 3
+	},
+
+	"fpHandTransform": {
+		"translation": { "x": 0.0468, "y": -0.1, "z": 0 },
+		"rotation": { "x": 6, "y": 49, "z": 20 },
+		"scale": 1.65
+	},
+
+	"tpHandTransform": {
+		"translation": { "x": -1.44, "y": -1.09, "z": -0.85 },
+		"rotation": { "x": -25, "y": 15, "z": -92 },
+		"scale": 0.51
+	},
+	
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0.17, "z": 0 },
+		"rotation": { "x": -1, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
+		"scale": 1.65
+	}
+}

@@ -1,0 +1,16 @@
+[
+	{
+	"ingredientPattern": "AB,CD",
+	"ingredients": {
+		"A": { "type": "item", "code": "game:mortar", "quantity": 1 },
+		"B": { "type": "item", "code": "game:resin", "quantity": 1 },
+		"C": { "type": "item", "code": "game:bonemeal", "quantity": 1 },
+		"D": { "type": "item", "code": "game:crushed-olivine", "quantity": 1 }
+		
+	},
+	"name": "cerama_glue",
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "ceramos:ceramaglue", "quantity": 4  }
+	}
+]

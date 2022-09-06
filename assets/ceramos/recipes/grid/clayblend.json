@@ -1,0 +1,15 @@
+[
+	{
+	"ingredientPattern": "AA,BC",
+	"ingredients": {
+		"A": { "type": "item", "code": "game:clay-fire", "quantity": 1 },
+		"B": { "type": "item", "code": "game:crushed-quartz", "quantity": 1 },
+		"C": { "type": "item", "code": "game:crushed-bauxite", "quantity": 1 }
+			
+	},
+	"name": "clay_blend",
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "ceramos:clayblend", "quantity": 3  }
+	}
+]

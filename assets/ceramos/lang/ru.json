@@ -1,0 +1,93 @@
+{
+	"ceramos-guide":								"Руководство по Керамосу",
+	"ceramos-guide-title":							"Руководство по Керамосу",
+	"ceramos-guide-text":							"Чтобы сделать самую первую плитку Керамы просто начните лепить из огнеупорной глины! Ну а остальная полезная информация будет в следующих релизах",
+	
+	
+	
+	
+	"ceramos:item-basetile-raw*": 					"Сырая заготовка керамы",
+	"ceramos:item-basetile-dry*":					"Сухая заготовка керамы",
+	
+	"block-cerama-colorful*": 						"Красочная керама",
+	"block-cerama-crosslines*": 					"Поперечная керама",
+	"block-cerama-parsley*": 						"Керама Петрушка",
+	"block-cerama-flower*": 						"Керама Цветок",
+	"block-cerama-petal*": 							"Керама Лепесток",
+	"block-cerama-cyanstars*": 						"Керама Бирюзовые звёзды",
+	"block-cerama-triangles*": 						"Керама Треугольники",
+	"block-cerama-curles*": 						"Керама Завитки",
+	"block-cerama-junglevines*": 					"Керама Лозы джунглей",
+	"block-cerama-stamens*": 						"Керама Тычинки",
+	
+	"ceramos:blockdesc-cerama-*":					"Тыльная сторона в клею! Готова к укладке.",
+	
+	"ceramos:item-ceramatile-colorful*": 			"Подготовленная Красочная керама",
+	"ceramos:item-ceramatile-crosslines*": 			"Подготовленная Поперечная керама",
+	"ceramos:item-ceramatile-parsley*": 			"Подготовленная керама Петрушка",
+	"ceramos:item-ceramatile-flower*": 				"Подготовленная керама Цветок",
+	"ceramos:item-ceramatile-petal*": 				"Подготовленная керама Лепесток",
+	"ceramos:item-ceramatile-cyanstars*": 			"Подготовленная керама Бирюзовые звёзды",
+	"ceramos:item-ceramatile-triangles*": 			"Подготовленная керама Треугольники",
+	"ceramos:item-ceramatile-curles*": 				"Подготовленная керама Завитки",
+	"ceramos:item-ceramatile-junglevines*": 		"Подготовленная керама Лозы джунглей",
+	"ceramos:item-ceramatile-stamens*": 			"Подготовленная керама Тычинки",
+	
+	"ceramos:itemdesc-ceramatile-*":				"Обожжена и готова к укладке",
+	
+	"ceramos:item-rawglazedtile-colorful*": 		"Сырая глазированная Красочная керама",
+	"ceramos:item-rawglazedtile-crosslines*": 		"Сырая глазированная Поперечная керама",
+	"ceramos:item-rawglazedtile-parsley*": 			"Сырая глазированная керама Петрушка",
+	"ceramos:item-rawglazedtile-flower*": 			"Сырая глазированная керама Цветок",
+	"ceramos:item-rawglazedtile-petal*": 			"Сырая глазированная керама Лепесток",
+	"ceramos:item-rawglazedtile-cyanstars*": 		"Сырая глазированная керама Бирюзовые звёзды",
+	"ceramos:item-rawglazedtile-triangles*": 		"Сырая глазированная керама Треугольники",
+	"ceramos:item-rawglazedtile-curles*": 			"Сырая глазированная керама Завитки",
+	"ceramos:item-rawglazedtile-junglevines*": 		"Сырая глазированная керама Лозы джунглей",
+	"ceramos:item-rawglazedtile-stamens*": 			"Сырая глазированная керама Тычинки",
+	
+	"ceramos:item-ceramaglue*":						"Клей для керамы",
+	
+	"ceramos:item-leadfrit-cooked*":				"Обожжённая свинцовая фритта",
+	"ceramos:item-leadfrit-blend*":					"Смесь свинцовой фритты",
+	"ceramos:item-leadfrit-powder*":				"Порошок свинцовой фритты",
+		
+	"ceramos:item-leadglazepaste-base*":			"Основа свницовой глазури",
+	"ceramos:item-leadglazepaste-black*":			"Чёрная свинцовая глазурная паста",
+	"ceramos:item-leadglazepaste-blue*":			"Голубая свинцовая глазурная паста",
+	"ceramos:item-leadglazepaste-gray*":			"Серая свинцовая глазурная паста",
+	"ceramos:item-leadglazepaste-green*":			"Зелёная свинцовая глазурная паста",
+	"ceramos:item-leadglazepaste-orange*":			"Оранжевая свинцовая глазурная паста",
+	"ceramos:item-leadglazepaste-pink*":			"Розовая свинцовая глазурная паста",
+	"ceramos:item-leadglazepaste-purple*":			"Пурпурная свинцовая глазурная паста",
+	"ceramos:item-leadglazepaste-red*":				"Красная свинцовая глазурная паста",
+	"ceramos:item-leadglazepaste-white*":			"Белая свинцовая глазурная паста",
+	"ceramos:item-leadglazepaste-yellow*":			"Жёлтая свинцоваяглазурная паста",
+	
+	"ceramos:item-brush-birch*":					"Кисть с берёзовой ручкой",
+	"ceramos:item-brush-oak*":						"Кисть с дубовой ручкой",
+	"ceramos:item-brush-pine*":						"Кисть с сосновой ручкой",
+	"ceramos:item-brush-maple*":					"Кисть с кленовой ручкой",
+	
+	"ceramos:item-spatula-copper*":					"Медный шпатель",
+	"ceramos:item-spatula-tinbronze*":				"Шпатель из оловянной бронзы",
+	"ceramos:item-spatula-bismuthbronze*":			"Шпатель из висмутовой бронзы",
+	"ceramos:item-spatula-blackbronze*":			"Шпатель из чёрной бронзы",
+	"ceramos:item-spatula-iron*":					"Железный шпатель",
+	"ceramos:item-spatula-meteoriciron*":			"Шпатель из метеоритного железа",
+	"ceramos:item-spatula-steel*":					"Стальной шпатель",
+	
+	"ceramos:item-spatulahead-copper*":				"Лезвие шпателя из меди",
+	"ceramos:item-spatulahead-tinbronze*":			"Лезвие шпателя из оловянной бронзы",
+	"ceramos:item-spatulahead-bismuthbronze*":		"Лезвие шпателя висмутовой бронзы",
+	"ceramos:item-spatulahead-blackbronze*":		"Лезвие шпателя из чёрной бронзы",
+	"ceramos:item-spatulahead-iron*":				"Лезвие шпателя из железа",
+	"ceramos:item-spatulahead-meteoriciron*":		"Лезвие шпателя из метеоритного железа",
+	"ceramos:item-spatulahead-steel*":				"Лезвие шпателя из стали",
+		
+	"ceramos:item-clayblend*":						"Глиняная смесь",
+	
+	"ceramos:incontainer-item-claycream":			"Глиняная жижа",
+	"ceramos:item-claycream":						"Глиняная жижа"
+	
+}
