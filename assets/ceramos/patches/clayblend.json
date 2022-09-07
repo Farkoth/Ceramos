@@ -34,5 +34,17 @@
         "path": "/textures/-",
         "value": {"clayworkitem-blend": { "base": "block/clay/blendclay" }},
         "file": "game:blocktypes/clay/brick.json"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": ["blend"],
+        "file": "game:blocktypes/clay/shingleslab.json"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": ["blend"],
+        "file": "game:blocktypes/clay/shinglestairs.json"
     }
 ]
