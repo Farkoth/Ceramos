@@ -1,8 +1,0 @@
-[
-    {
-        "op": "addeach",
-        "path": "/variantgroups/0/states/-",
-        "value": ["blend"],
-        "file": "game:blocktypes/clay/chimney.json"
-    }
-]

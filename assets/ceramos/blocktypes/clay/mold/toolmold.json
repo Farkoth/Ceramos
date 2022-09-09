@@ -45,8 +45,8 @@
 	"maxStackSize": 8,
 	"lightAbsorption": 0,
 	"texturesByType": {
-		"toolmold-raw-*": {  "all": { "base": "block/clay/blueclay" } },
-		"toolmold-burned-*": {  "floor": { "base": "block/clay/ceramic-dark" }, "other": { "base": "block/clay/ceramic" } }
+		"toolmold-raw-*": {  "all": { "base": "game:block/clay/blueclay" } },
+		"toolmold-burned-*": {  "floor": { "base": "game:block/clay/ceramic-dark" }, "other": { "base": "game:block/clay/ceramic" } }
 	},
 	"shape": { "base": "ceramos:block/clay/mold/{tooltype}", "rotateYByType": { "*-spatula":0 }},
 	"sounds": {
