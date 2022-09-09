@@ -7,7 +7,7 @@
 		"C": { "type": "item", "code": "game:crushed-quartz", "quantity": 1 }
 		},
 	
-		"name": "lead_frit_base",
+		"name": "leadfritbase",
 		"width": 2,
 		"height": 2,
 		"output": { "type": "item", "code": "ceramos:leadfrit-blend", "quantity": 4  }

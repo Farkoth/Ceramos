@@ -11,6 +11,7 @@
 	"heldTpIdleAnimation": "holdbothhands",
 	
 	"attributes": {
+		"handbook": { "groupBy": "leadglazepaste-*" },
 		"displaycaseable": true, 
 		"shelvable": true,
 		"onDisplayTransform": {

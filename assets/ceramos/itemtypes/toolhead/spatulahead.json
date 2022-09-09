@@ -11,6 +11,7 @@
 	},
 
 	"attributes": {
+		"handbook": { "groupBy": "spatulahead-*" },
 		"rackable": false
 	},
 

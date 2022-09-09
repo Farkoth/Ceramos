@@ -15,6 +15,7 @@
 	},
 
 	"attributes": {
+		"handbook": { "groupBy": "brush-*" },
 		"toolrackTransform": {
 			"translation": {
 				"x": -0.1,
