@@ -14,15 +14,15 @@
 	},
 	"variantgroups": [
 		{ "code":"materialtype", "states": ["raw", "burned"] },
-		{ "code":"tooltype", "states": ["spatulahead"] }
+		{ "code":"tooltype", "states": ["spatula"] }
 	],
 	"attributesByType": {		
-		"toolmold-burned-spatulahead": {
+		"toolmold-burned-spatula": {
 			"requiredUnits": 100,
 			"fillHeight": 1,
 			"moldrackable": true,
 			"onmoldrackTransform": { "rotation": { "z": 90 } },
-			"drop": { "type": "item", "code": "spatulahead-{metal}" }
+			"drop": { "type": "item", "code": "spatula-{metal}" }
 		}
 	},
 	"entityClassByType": {
@@ -34,7 +34,7 @@
 			"meltingDuration": 45,
 			"smeltedRatio": 1,
 			"smeltingType": "fire",
-			"smeltedStack": { "type": "block", "code": "toolmold-burned-{tooltype}" },
+			"smeltedStack": { "type": "block", "code": "ceramos:toolmold-burned-{tooltype}" },
 			"requiresContainer": false
 		}
 	},
@@ -48,7 +48,7 @@
 		"toolmold-raw-*": {  "all": { "base": "game:block/clay/blueclay" } },
 		"toolmold-burned-*": {  "floor": { "base": "game:block/clay/ceramic-dark" }, "other": { "base": "game:block/clay/ceramic" } }
 	},
-	"shape": { "base": "ceramos:block/clay/mold/{tooltype}", "rotateYByType": { "*-spatula":0 }},
+	"shape": { "base": "ceramos:block/clay/mold/{tooltype}", "rotateYByType": { "*-spatula": 90 }},
 	"sounds": {
 		"walk": "walk/stone"
 	},

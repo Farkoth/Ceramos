@@ -4,7 +4,8 @@
 	"ceramos-guide-text":							"Чтобы сделать самую первую плитку Керамы просто начните лепить из огнеупорной глины! Ну а остальная полезная информация будет в следующих релизах",
 	
 	
-	
+	"ceramos:block-toolmold-raw-spatula":			"Форма для шпателя (необож.)",
+	"ceramos:block-toolmold-burned-spatula":		"Форма для шпателя",
 	
 	"ceramos:item-basetile-raw*": 					"Сырая заготовка керамы",
 	"ceramos:item-basetile-dry*":					"Сухая заготовка керамы",

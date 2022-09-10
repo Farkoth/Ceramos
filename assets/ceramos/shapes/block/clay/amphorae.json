@@ -8,8 +8,8 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"ceramic": "block/clay/ceramic",
-		"bituminous": "block/coal/bituminous"
+		"ceramic": "game:block/clay/ceramic",
+		"bituminous": "game:block/coal/bituminous"
 	},
 	"elements": [
 		{

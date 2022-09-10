@@ -10,7 +10,8 @@
 	
 	
 	
-	
+	"ceramos:block-toolmold-raw-spatula":			"Raw spatula mold",
+	"ceramos:block-toolmold-burned-spatula":		"Spatula mold",
 	
 	"ceramos:item-basetile-raw*": 					"Raw cerama base tile",
 	"ceramos:item-basetile-dry*":					"Dry cerama base tile",
