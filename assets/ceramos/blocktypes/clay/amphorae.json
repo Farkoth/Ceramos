@@ -1,6 +1,6 @@
-/*{
+{
 	"code": "amphorae",
-	"class": "Block",
+	"class": "BlockBarrel",
 	"classByType": {
 		"*-fired": "BlockLiquidContainerTopOpened"
 	},
@@ -94,4 +94,4 @@
 		"scale": 1.5
 	}
 
-}*/
+}

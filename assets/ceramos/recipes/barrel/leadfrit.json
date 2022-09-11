@@ -1,0 +1,11 @@
+[	
+    {
+    "code": "leadfrit",
+    "sealHours": 24,
+    "ingredients": [
+        { "type": "item", "code": "game:dye-*", "name": "color", "litres": 1, "allowedVariants": ["blue", "red", "yellow", "purple", "green", "orange", "black", "grey", "pink", "white"]  },
+        { "type": "item", "code": "ceramos:leadfrit-powder", "quantity": 2 }
+    ],
+    "output": { "type": "item", "code": "ceramos:coloredleadfrit-{color}", "quantity": 2 }
+    }
+]       

@@ -1,6 +1,6 @@
 [
 	{
-	"ingredientPattern": "AB,CC",
+		"ingredientPattern": "AB,CC",
 		"ingredients": {
 		"A": { "type": "item", "code": "game:crushed-leadoxide", "quantity": 1 },
 		"B": { "type": "item", "code": "game:lime", "quantity": 1 },
@@ -12,5 +12,4 @@
 		"height": 2,
 		"output": { "type": "item", "code": "ceramos:leadfrit-blend", "quantity": 4  }
 	}
-	
 ]

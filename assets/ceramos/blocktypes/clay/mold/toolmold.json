@@ -64,14 +64,7 @@
 	},
 	"sideopaque": {"all": false},
 	"sidesolid": {"all": false},
-	"heldTpIdleAnimationByType": {
-		"*-anvil": "holdbothhands",
-		"*-helvehammer": "holdbothhands"
-	},
-	"heldTpUseAnimationByType": {
-		"*-anvil": "twohandplaceblock",
-		"*-helvehammer": "twohandplaceblock"
-	},
+	
 	"guiTransformByType": {
 		"*": {
 			"translation": { "x": 0, "y": 3, "z": 0 },
