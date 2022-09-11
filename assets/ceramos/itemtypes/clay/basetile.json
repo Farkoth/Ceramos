@@ -27,7 +27,7 @@
 		{ "code": "type", "states": ["raw", "dry"] }
 	],
 
-	"shape": { "base": "ceramos:block/clay/ceramatile" },
+	"shape": { "base": "ceramos:block/clay/basetile" },
 	"maxstacksize": 12,
 	"blockmaterial": "Ceramic",
 	"creativeinventory": { "general": ["*"], "decorative": ["*"], "ceramos": ["*"] },
@@ -35,7 +35,7 @@
 	"resistance": 1,
 	"emitSideAo": { "all": false },
 	"textures": {
-		"all": { "base": "ceramos:item/resource/{type}" },
+		"all": { "base": "ceramos:block/clay/{type}" },
 		"wood": { "base": "game:block/wood/debarked/oak" }
 	},
 

@@ -1,7 +1,7 @@
 {
 	"code": "leadglazepaste",
 	"variantgroups": [
-		{ "code": "type","states": [ "base", "blue", "red", "yellow", "purple", "green", "orange", "black", "gray", "pink", "white" ] }
+		{ "code": "type","states": [ "blue", "red", "yellow", "purple", "green", "orange", "black", "gray", "pink", "white" ] }
 	],
 
 	"maxstacksize": 32,
@@ -11,6 +11,7 @@
 	"heldTpIdleAnimation": "holdbothhands",
 	
 	"attributes": {
+		"handbook": { "groupBy": "leadglazepaste-*" },
 		"displaycaseable": true, 
 		"shelvable": true,
 		"onDisplayTransform": {

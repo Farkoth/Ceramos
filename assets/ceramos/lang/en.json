@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"tabname-ceramos": 								"Ceramos",
 	"ceramos-guide":								"Ceramos guide",
@@ -102,4 +103,185 @@
 	
 	
 	
+=======
+{
+	"ceramos-guide":								"Ceramos guide",
+	"ceramos-guide-title":							"Ceramos guide",
+	"ceramos-guide-text":							"<strong>Cerama</strong><br><br>This manual will help you to learn how to create you own Cerama tiles, color them and apply to walls or floor.<br>Preparing Cerama consists of 4 main steps:<br>- Clayforming a <a href=\"handbook://item-basetile\">base tile</a>",
+	
+	
+	
+	
+	
+	
+	
+	
+	"ceramos:block-toolmold-raw-spatula":			"Raw spatula mold",
+	"ceramos:block-toolmold-burned-spatula":		"Spatula mold",
+
+	"ceramos:block-toolmoldcolored-raw-black-spatula":			"Raw spatula mold (Black)",
+	"ceramos:block-toolmoldcolored-raw-blurple-spatula":		"Raw spatula mold (Blue)",
+	"ceramos:block-toolmoldcolored-raw-brown-spatula":			"Raw spatula mold (Brown)",
+	"ceramos:block-toolmoldcolored-raw-darkgrey-spatula":		"Raw spatula mold (Dark-grey)",
+	"ceramos:block-toolmoldcolored-raw-fire-spatula":			"Raw spatula mold (Fire clay)",
+	"ceramos:block-toolmoldcolored-raw-green-spatula":			"Raw spatula mold (Green)",
+	"ceramos:block-toolmoldcolored-raw-malachite-spatula":		"Raw spatula mold (Malachite)",
+	"ceramos:block-toolmoldcolored-raw-orange-spatula":			"Raw spatula mold (Orange)",
+	"ceramos:block-toolmoldcolored-raw-pink-spatula":			"Raw spatula mold (Pink)",
+	"ceramos:block-toolmoldcolored-raw-purple-spatula":			"Raw spatula mold (Purple)",
+	"ceramos:block-toolmoldcolored-raw-red-spatula":			"Raw spatula mold (Red)",
+	"ceramos:block-toolmoldcolored-raw-light-spatula":			"Raw spatula mold (Light)",
+	"ceramos:block-toolmoldcolored-raw-yellow-spatula":			"Raw spatula mold (Yellow)",
+
+	"ceramos:block-toolmoldcolored-burned-black-spatula":		"Spatula mold (Black)",
+	"ceramos:block-toolmoldcolored-burned-blurple-spatula":		"Spatula mold (Blue)",
+	"ceramos:block-toolmoldcolored-burned-brown-spatula":		"Spatula mold (Brown)",
+	"ceramos:block-toolmoldcolored-burned-darkgrey-spatula":	"Spatula mold (Dark-grey)",
+	"ceramos:block-toolmoldcolored-burned-fire-spatula":		"Spatula mold (Fire clay)",
+	"ceramos:block-toolmoldcolored-burned-green-spatula":		"Spatula mold (Green)",
+	"ceramos:block-toolmoldcolored-burned-malachite-spatula":	"Spatula mold (Malachite)",
+	"ceramos:block-toolmoldcolored-burned-orange-spatula":		"Spatula mold (Orange)",
+	"ceramos:block-toolmoldcolored-burned-pink-spatula":		"Spatula mold (Pink)",
+	"ceramos:block-toolmoldcolored-burned-purple-spatula":		"Spatula mold (Purple)",
+	"ceramos:block-toolmoldcolored-burned-red-spatula":			"Spatula mold (Red)",
+	"ceramos:block-toolmoldcolored-burned-light-spatula":		"Spatula mold (Light)",
+	"ceramos:block-toolmoldcolored-burned-yellow-spatula":		"Spatula mold (Yellow)",
+	
+	
+	"ceramos:item-basetile-raw*": 					"Raw cerama base tile",
+	"ceramos:item-basetile-dry*":					"Dry cerama base tile",
+
+	"ceramos:itemdesc-basetile-*":					"Material: Ceramic",
+	
+	"ceramos:block-cerama-colorful*": 				"Colorful cerama",
+	"ceramos:block-cerama-crosslines*": 			"Crosslines cerama",
+	"ceramos:block-cerama-parsley*": 				"Parsley cerama",
+	"ceramos:block-cerama-flower*": 				"Flower cerama",
+	"ceramos:block-cerama-petal*": 					"Petal cerama",
+	"ceramos:block-cerama-cyanstars*": 				"Cyan stars cerama",
+	"ceramos:block-cerama-triangles*": 				"Triangles cerama",
+	"ceramos:block-cerama-curles*": 				"Curles cerama",
+	"ceramos:block-cerama-junglevines*": 			"Jungle vines cerama",
+	"ceramos:block-cerama-stamens*": 				"Stamens cerama",
+	
+	"ceramos:blockdesc-cerama-*":					"With glue at the backside! Ready to attach",
+	
+	"ceramos:item-ceramatile-colorful*": 			"Prepared Colorful cerama",
+	"ceramos:item-ceramatile-crosslines*": 			"Prepared Crosslines cerama",
+	"ceramos:item-ceramatile-parsley*": 			"Prepared Parsley cerama",
+	"ceramos:item-ceramatile-flower*": 				"Prepared Flower cerama",
+	"ceramos:item-ceramatile-petal*": 				"Prepared Petal cerama",
+	"ceramos:item-ceramatile-cyanstars*": 			"Prepared Cyan stars cerama",
+	"ceramos:item-ceramatile-triangles*": 			"Prepared Triangles cerama",
+	"ceramos:item-ceramatile-curles*": 				"Prepared Curles cerama",
+	"ceramos:item-ceramatile-junglevines*": 		"Prepared Jungle vines cerama",
+	"ceramos:item-ceramatile-stamens*": 			"Prepared Stamens cerama",
+	
+	"ceramos:itemdesc-ceramatile-*":				"Fired and prepared to attach with glue",
+	
+	"ceramos:item-rawglazedtile-colorful*": 		"Raw glazed Colorful cerama",
+	"ceramos:item-rawglazedtile-crosslines*": 		"Raw glazed Crosslines cerama",
+	"ceramos:item-rawglazedtile-parsley*": 			"Raw glazed Parsley cerama",
+	"ceramos:item-rawglazedtile-flower*": 			"Raw glazed Flower cerama",
+	"ceramos:item-rawglazedtile-petal*": 			"Raw glazed Petal cerama",
+	"ceramos:item-rawglazedtile-cyanstars*": 		"Raw glazed Cyan stars cerama",
+	"ceramos:item-rawglazedtile-triangles*": 		"Raw glazed Triangles cerama",
+	"ceramos:item-rawglazedtile-curles*": 			"Raw glazed Curles cerama",
+	"ceramos:item-rawglazedtile-junglevines*": 		"Raw glazed Jungle vines cerama",
+	"ceramos:item-rawglazedtile-stamens*": 			"Raw glazed Stamens cerama",
+
+	"ceramos:itemdesc-rawglazedtile-*":				"Material: Ceramic",
+	
+	"ceramos:item-ceramaglue*":						"Cerama glue",
+	
+	"ceramos:item-leadfrit-cooked*":				"Cooked lead frit",
+	"ceramos:item-leadfrit-blend*":					"Lead frit blend",
+	"ceramos:item-leadfrit-powder*":				"Lead frit powder",
+	"ceramos:item-coloredleadfrit-blue*":			"Blue lead frit powder",
+	"ceramos:item-coloredleadfrit-red*":			"Red lead frit powder",
+	"ceramos:item-coloredleadfrit-yellow*":			"Yellow lead frit powder",
+	"ceramos:item-coloredleadfrit-purple*":			"Purple lead frit powder",
+	"ceramos:item-coloredleadfrit-green*":			"Green lead frit powder",
+	"ceramos:item-coloredleadfrit-orange*":			"Orange lead frit powder",
+	"ceramos:item-coloredleadfrit-black*":			"Black lead frit powder",
+	"ceramos:item-coloredleadfrit-grey*":			"Grey lead frit powder",
+	"ceramos:item-coloredleadfrit-pink*":			"Pink lead frit powder",
+	"ceramos:item-coloredleadfrit-white*":			"White lead frit powder",
+
+	"ceramos:item-leadglaze-blue*":					"Blue lead glaze",
+	"ceramos:item-leadglaze-red*":					"Red lead glaze",
+	"ceramos:item-leadglaze-yellow*":				"Yellow lead glaze",
+	"ceramos:item-leadglaze-purple*":				"Purple lead glaze",
+	"ceramos:item-leadglaze-green*":				"Green lead glaze",
+	"ceramos:item-leadglaze-orange*":				"Orange lead glaze",
+	"ceramos:item-leadglaze-black*":				"Black lead glaze",
+	"ceramos:item-leadglaze-grey*":					"Grey lead glaze",
+	"ceramos:item-leadglaze-pink*":					"Pink lead glaze",
+	"ceramos:item-leadglaze-white*":				"White lead glaze",
+
+	"ceramos:incontainer-item-leadglaze-blue":					"Blue lead glaze",
+	"ceramos:incontainer-item-leadglaze-red":					"Red lead glaze",
+	"ceramos:incontainer-item-leadglaze-yellow":				"Yellow lead glaze",
+	"ceramos:incontainer-item-leadglaze-purple":				"Purple lead glaze",
+	"ceramos:incontainer-item-leadglaze-green":					"Green lead glaze",
+	"ceramos:incontainer-item-leadglaze-orange":				"Orange lead glaze",
+	"ceramos:incontainer-item-leadglaze-black":					"Black lead glaze",
+	"ceramos:incontainer-item-leadglaze-grey":					"Grey lead glaze",
+	"ceramos:incontainer-item-leadglaze-pink":					"Pink lead glaze",
+	"ceramos:incontainer-item-leadglaze-white":					"White lead glaze",
+
+	"game:incontainer-item-leadglaze-blue":					"Blue lead glaze",
+	"game:incontainer-item-leadglaze-red":					"Red lead glaze",
+	"game:incontainer-item-leadglaze-yellow":				"Yellow lead glaze",
+	"game:incontainer-item-leadglaze-purple":				"Purple lead glaze",
+	"game:incontainer-item-leadglaze-green":				"Green lead glaze",
+	"game:incontainer-item-leadglaze-orange":				"Orange lead glaze",
+	"game:incontainer-item-leadglaze-black":				"Black lead glaze",
+	"game:incontainer-item-leadglaze-grey":					"Grey lead glaze",
+	"game:incontainer-item-leadglaze-pink":					"Pink lead glaze",
+	"game:incontainer-item-leadglaze-white":				"White lead glaze",
+		
+	"ceramos:item-leadglazepaste-black*":			"Black glaze paste",
+	"ceramos:item-leadglazepaste-blue*":			"Blue glaze paste",
+	"ceramos:item-leadglazepaste-grey*":			"Grey glaze paste",
+	"ceramos:item-leadglazepaste-green*":			"Green glaze paste",
+	"ceramos:item-leadglazepaste-orange*":			"Orange glaze paste",
+	"ceramos:item-leadglazepaste-pink*":			"Pink glaze paste",
+	"ceramos:item-leadglazepaste-purple*":			"Purple glaze paste",
+	"ceramos:item-leadglazepaste-red*":				"Red glaze paste",
+	"ceramos:item-leadglazepaste-white*":			"White glaze paste",
+	"ceramos:item-leadglazepaste-yellow*":			"Yellow glaze paste",
+	
+	"ceramos:item-brush-birch*":					"Birch handle brush",
+	"ceramos:item-brush-oak*":						"Oak handle brush",
+	"ceramos:item-brush-pine*":						"Pine handle brush",
+	"ceramos:item-brush-maple*":					"Maple handle brush",
+	
+	"ceramos:item-spatula-copper*":					"Copper spatula",
+	"ceramos:item-spatula-tinbronze*":				"Tin bronze spatula",
+	"ceramos:item-spatula-bismuthbronze*":			"Bismuth bronze spatula",
+	"ceramos:item-spatula-blackbronze*":			"Black bronze spatula",
+	"ceramos:item-spatula-iron*":					"Iron spatula",
+	"ceramos:item-spatula-meteoriciron*":			"Meteoric iron spatula",
+	"ceramos:item-spatula-steel*":					"Steel spatula",
+	
+	"ceramos:item-spatulahead-copper*":				"Copper spatula blade",
+	"ceramos:item-spatulahead-tinbronze*":			"Tin bronze spatula blade",
+	"ceramos:item-spatulahead-bismuthbronze*":		"Bismuth bronze spatula blade",
+	"ceramos:item-spatulahead-blackbronze*":		"Black bronze spatula blade",
+	"ceramos:item-spatulahead-iron*":				"Iron spatula blade",
+	"ceramos:item-spatulahead-meteoriciron*":		"Meteoric iron spatula blade",
+	"ceramos:item-spatulahead-steel*":				"Steel spatula blade",
+		
+	"ceramos:item-clayblend*":						"Clay blend",
+	
+	"ceramos:incontainer-item-claycream":			"Clay cream",
+	"game:incontainer-item-claycream":				"Clay cream",
+	"ceramos:item-claycream":						"Clay cream"
+	
+	
+	
+	
+	
+>>>>>>> test
 }

@@ -2,7 +2,7 @@
 	{
 	"ingredientPattern": "C_,MS",
 	"ingredients": {
-		"C": { "type": "item", "code": "ceramos:ceramatile-*", "name": "type", "quantity": 5 },
+		"C": { "type": "block", "code": "ceramos:ceramatile-*", "name": "type", "quantity": 5 },
 		"M": { "type": "item", "code": "ceramos:ceramaglue", "quantity": 1 },
 		"S": { "type": "item", 
 				"code": "ceramos:spatula-*", "isTool": true, "toolDurabilityCost": 3, 

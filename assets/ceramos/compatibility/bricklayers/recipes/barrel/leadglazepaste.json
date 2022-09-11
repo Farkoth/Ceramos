@@ -1,0 +1,131 @@
+[
+    {
+    "code": "leadglazepaste",
+    "ingredients": [
+        { "type": "item", "code": "game:flour-spelt", "quantity": 1 },
+        { "type": "item", "code": "ceramos:leadglaze-*", "name": "color", "litres": 2, "allowedVariants": ["blue", "red", "yellow", "purple", "green", "orange", "black", "gray", "pink", "white"] }
+    ],
+    "output": { "type": "item", "code": "ceramos:leadglazepaste-{color}", "quantity": 2 }
+    },
+
+    {
+    "code": "leadglazepaste",
+    "ingredients": [
+        { "type": "item", "code": "game:flour-rice", "quantity": 1 },
+        { "type": "item", "code": "ceramos:leadglaze-*", "name": "color", "litres": 2, "allowedVariants": ["blue", "red", "yellow", "purple", "green", "orange", "black", "gray", "pink", "white"] }
+    ],
+    "output": { "type": "item", "code": "ceramos:leadglazepaste-{color}", "quantity": 2 }
+    },
+
+    {
+    "code": "leadglazepaste",
+    "ingredients": [
+        { "type": "item", "code": "game:flour-flax", "quantity": 1 },
+        { "type": "item", "code": "ceramos:leadglaze-*", "name": "color", "litres": 2, "allowedVariants": ["blue", "red", "yellow", "purple", "green", "orange", "black", "gray", "pink", "white"] }
+    ],
+    "output": { "type": "item", "code": "ceramos:leadglazepaste-{color}", "quantity": 2 }
+    },
+    
+    {
+    "code": "leadglazepaste",
+    "ingredients": [
+        { "type": "item", "code": "game:flour-rye", "quantity": 1 },
+        { "type": "item", "code": "ceramos:leadglaze-*", "name": "color", "litres": 2, "allowedVariants": ["blue", "red", "yellow", "purple", "green", "orange", "black", "gray", "pink", "white"] }
+    ],
+    "output": { "type": "item", "code": "ceramos:leadglazepaste-{color}", "quantity": 2 }
+    },
+    
+    {
+    "code": "leadglazepaste",
+    "ingredients": [
+        { "type": "item", "code": "game:flour-cassava", "quantity": 1 },
+        { "type": "item", "code": "ceramos:leadglaze-*", "name": "color", "litres": 2, "allowedVariants": ["blue", "red", "yellow", "purple", "green", "orange", "black", "gray", "pink", "white"] }
+    ],
+    "output": { "type": "item", "code": "ceramos:leadglazepaste-{color}", "quantity": 2 }
+    },
+    
+    {
+    "code": "leadglazepaste",
+    "ingredients": [
+        { "type": "item", "code": "game:flour-amaranth", "quantity": 1 },
+        { "type": "item", "code": "ceramos:leadglaze-*", "name": "color", "litres": 2, "allowedVariants": ["blue", "red", "yellow", "purple", "green", "orange", "black", "gray", "pink", "white"] }
+    ],
+    "output": { "type": "item", "code": "ceramos:leadglazepaste-{color}", "quantity": 2 }
+    },    
+
+    {
+    "code": "leadglazepaste",
+    "ingredients": [
+        { "type": "item", "code": "game:flour-sunflower", "quantity": 1 },
+        { "type": "item", "code": "ceramos:leadglaze-*", "name": "color", "litres": 2, "allowedVariants": ["blue", "red", "yellow", "purple", "green", "orange", "black", "gray", "pink", "white"] }
+    ],
+    "output": { "type": "item", "code": "ceramos:leadglazepaste-{color}", "quantity": 2 }
+    },
+
+
+
+
+
+    {
+        "code": "leadglazepaste",
+        "ingredients": [
+            { "type": "item", "code": "game:flour-spelt", "quantity": 1 },
+            { "type": "item", "code": "bricklayers:glazing-clear-*", "name": "color", "litres": 2, "allowedVariants": ["blue", "red", "yellow", "purple", "green", "orange", "black", "gray", "pink", "white"] }
+        ],
+        "output": { "type": "item", "code": "ceramos:leadglazepaste-{color}", "quantity": 2 }
+        },
+    
+        {
+        "code": "leadglazepaste",
+        "ingredients": [
+            { "type": "item", "code": "game:flour-rice", "quantity": 1 },
+            { "type": "item", "code": "bricklayers:glazing-clear-*", "name": "color", "litres": 2, "allowedVariants": ["blue", "red", "yellow", "purple", "green", "orange", "black", "gray", "pink", "white"] }
+        ],
+        "output": { "type": "item", "code": "ceramos:leadglazepaste-{color}", "quantity": 2 }
+        },
+    
+        {
+        "code": "leadglazepaste",
+        "ingredients": [
+            { "type": "item", "code": "game:flour-flax", "quantity": 1 },
+            { "type": "item", "code": "bricklayers:glazing-clear-*", "name": "color", "litres": 2, "allowedVariants": ["blue", "red", "yellow", "purple", "green", "orange", "black", "gray", "pink", "white"] }
+        ],
+        "output": { "type": "item", "code": "ceramos:leadglazepaste-{color}", "quantity": 2 }
+        },
+        
+        {
+        "code": "leadglazepaste",
+        "ingredients": [
+            { "type": "item", "code": "game:flour-rye", "quantity": 1 },
+            { "type": "item", "code": "bricklayers:glazing-clear-*", "name": "color", "litres": 2, "allowedVariants": ["blue", "red", "yellow", "purple", "green", "orange", "black", "gray", "pink", "white"] }
+        ],
+        "output": { "type": "item", "code": "ceramos:leadglazepaste-{color}", "quantity": 2 }
+        },
+        
+        {
+        "code": "leadglazepaste",
+        "ingredients": [
+            { "type": "item", "code": "game:flour-cassava", "quantity": 1 },
+            { "type": "item", "code": "bricklayers:glazing-clear-*", "name": "color", "litres": 2, "allowedVariants": ["blue", "red", "yellow", "purple", "green", "orange", "black", "gray", "pink", "white"] }
+        ],
+        "output": { "type": "item", "code": "ceramos:leadglazepaste-{color}", "quantity": 2 }
+        },
+        
+        {
+        "code": "leadglazepaste",
+        "ingredients": [
+            { "type": "item", "code": "game:flour-amaranth", "quantity": 1 },
+            { "type": "item", "code": "bricklayers:glazing-clear-*", "name": "color", "litres": 2, "allowedVariants": ["blue", "red", "yellow", "purple", "green", "orange", "black", "gray", "pink", "white"] }
+        ],
+        "output": { "type": "item", "code": "ceramos:leadglazepaste-{color}", "quantity": 2 }
+        },    
+    
+        {
+        "code": "leadglazepaste",
+        "ingredients": [
+            { "type": "item", "code": "game:flour-sunflower", "quantity": 1 },
+            { "type": "item", "code": "bricklayers:glazing-clear-*", "name": "color", "litres": 2, "allowedVariants": ["blue", "red", "yellow", "purple", "green", "orange", "black", "gray", "pink", "white"] }
+        ],
+        "output": { "type": "item", "code": "ceramos:leadglazepaste-{color}", "quantity": 2 }
+        }        
+]       

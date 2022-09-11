@@ -39,7 +39,7 @@
 	"emitSideAo": { "all": false },
 	"textures": {
 		"up": { "base": "ceramos:block/cerama/{type}" },
-		"all": { "base": "ceramos:item/resource/fired" },
+		"all": { "base": "ceramos:block/clay/burned" },
 		"wood": { "base": "game:block/wood/debarked/oak" }
 	},
 
