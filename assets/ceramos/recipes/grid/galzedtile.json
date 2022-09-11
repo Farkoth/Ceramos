@@ -10,7 +10,7 @@
 		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
 		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 1 },
 		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 1 },
-		"E": { "type": "item", "code": "ceramos:leadglazepaste-gray", "quantity": 1 },
+		"E": { "type": "item", "code": "ceramos:leadglazepaste-grey", "quantity": 1 },
 		"O": { "type": "item", "code": "ceramos:leadglazepaste-orange", "quantity": 1 }
 		},
 	"width": 3,
@@ -28,7 +28,7 @@
 		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
 		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 1 },
 		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 1 },
-		"E": { "type": "item", "code": "ceramos:leadglazepaste-gray", "quantity": 1 }
+		"E": { "type": "item", "code": "ceramos:leadglazepaste-grey", "quantity": 1 }
 		},
 	"width": 3,
 	"height": 3,
@@ -44,7 +44,7 @@
 		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 1 },
 		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
 		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 1 },
-		"E": { "type": "item", "code": "ceramos:leadglazepaste-gray", "quantity": 1 }
+		"E": { "type": "item", "code": "ceramos:leadglazepaste-grey", "quantity": 1 }
 		},
 	"width": 2,
 	"height": 3,
@@ -109,7 +109,7 @@
 		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 1 },
 		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
 		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 1 },
-		"E": { "type": "item", "code": "ceramos:leadglazepaste-gray", "quantity": 1 }
+		"E": { "type": "item", "code": "ceramos:leadglazepaste-grey", "quantity": 1 }
 		},
 	"width": 3,
 	"height": 3,
@@ -126,7 +126,7 @@
 		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 1 },
 		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
 		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 1 },
-		"E": { "type": "item", "code": "ceramos:leadglazepaste-gray", "quantity": 1 }
+		"E": { "type": "item", "code": "ceramos:leadglazepaste-grey", "quantity": 1 }
 		},
 	"width": 3,
 	"height": 3,
