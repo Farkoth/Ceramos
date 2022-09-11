@@ -15,19 +15,19 @@ What is already in mod:
 - 10 types of ceramic tiles called - Cerama,
 - Tools - brushes and spatulas,
 - Clayforming (temporarily disabled), barrel, grinding, powdering resources to get in final Cerama tile,
-- Drying system as step of producing,
+- Drying system as a step of producing,
 - Ability to buy Prepared Cerama from traders,
 - Removing Cerama have a chance to get tile back.
 
-![image](https://user-images.githubusercontent.com/10907537/189221601-bd163402-2843-4ae0-8c7f-55f0b5114613.png)
+![image](https://mods.vintagestory.at/files/asset/3777/Ceramos%20Logo.png)
 
 <!-- ROADMAP -->
 ## Roadmap
-- Patterns and painting mechanics,
-- Amphoraes for your alcohol,
-- Mosaic tiles from broken Cerama parts,
-- Improved recipes,
-- More tools,
-- Bricklayers compatibilty,
-- Building blocks - maybe like bricks with mosaic,
-- And more, what i even cant imagine right now.
+- [ ] Patterns and painting mechanics,
+- [x] Amphoraes for your alcohol (available only in Creative),
+- [ ] Mosaic tiles from broken Cerama parts,
+- [x] Improved recipes,
+- [ ] More tools,
+- [x] Bricklayers compatibilty (added first step of Compat),
+- [ ] Building blocks - maybe like bricks with mosaic,
+- [ ] And more, what i even cant imagine right now.
