@@ -29,6 +29,8 @@
 	"ceramos:block-toolmoldcolored-raw-light-spatula":			"Raw spatula mold (Light)",
 	"ceramos:block-toolmoldcolored-raw-yellow-spatula":			"Raw spatula mold (Yellow)",
 
+	"ceramos:blockcraftdesc-toolmoldcolored-raw-*-spatula":		"To create spatula heads directly from molten metal",
+
 	"ceramos:block-toolmoldcolored-burned-black-spatula":		"Spatula mold (Black)",
 	"ceramos:block-toolmoldcolored-burned-blurple-spatula":		"Spatula mold (Blue)",
 	"ceramos:block-toolmoldcolored-burned-brown-spatula":		"Spatula mold (Brown)",
