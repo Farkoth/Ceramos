@@ -39,7 +39,7 @@
 	"emitSideAo": { "all": false },
 	"textures": {
 		"up": { "base": "ceramos:item/rawglazedtile/{type}" },
-		"all": { "base": "ceramos:block/clay/fired" }
+		"all": { "base": "ceramos:block/clay/raw" }
 	},
 
 	"combustibleProps": {
