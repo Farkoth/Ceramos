@@ -10,11 +10,13 @@
 			"thickness": 0.003
 			}
 		}
-	],	
+	],
+
 	"attributes": 
 		{
 		"handbook": { "groupBy": "cerama-*" }
-		},
+	},
+
 	"variantgroups": [
 		{ "code": "type", 
 				"states": 
@@ -22,6 +24,7 @@
 				"crosslines", "colorful", "flower", "junglevines"] },
 		{ "code": "side", "states": [ "north", "east", "south", "west", "up", "down"] }
 	],
+
 	"shapeByType": {
 		"*-down": { "base": "ceramos:block/clay/cerama" },
 		"*-up": { "base": "ceramos:block/clay/cerama", "rotateX": 180 }, 
@@ -30,6 +33,7 @@
 		"*-west": { "base": "ceramos:block/clay/cerama", "rotateX": 90, "rotateY": 0, "rotateZ": 270 },
 		"*-south": { "base": "ceramos:block/clay/cerama", "rotateX": 270 }
 	},
+
 	"sidesolidByType": {
 		"*-down": { "all": false, "down": true },
 		"*-up": { "all": false, "up": true },
@@ -38,6 +42,7 @@
 		"*-west": { "all": false, "west": true },
 		"*-south": { "all": false, "south": true }
 	},
+
 	"sideopaqueByType": {
 		"*-down": { "all": false, "down": true },
 		"*-up": { "all": false, "up": true },
@@ -46,6 +51,7 @@
 		"*-west": { "all": false, "west": true },
 		"*-south": { "all": false, "south": true }
 	},
+
 	"blockmaterial": "Ceramic",
 	"creativeinventory": { "general": ["*-down"], "decorative": ["*-down"], "ceramos": ["*-down"] },
 	"replaceable": 900,
@@ -56,6 +62,7 @@
 		"up": { "base": "ceramos:block/cerama/{type}" },
 		"all": { "base": "ceramos:block/clay/burned" }	
 	},
+
 	"drops": [
 		{
 			"type": "item", 
@@ -63,6 +70,7 @@
 			"quantity": { "avg": 0.7 }
 		}
 	],
+
 	"vertexFlags": { "zOffset": 1 },
 	"guiTransform": {
 		"rotate": false,
@@ -71,12 +79,14 @@
 		"origin": { "x": 0.5, "y": 0.1, "z": 0.1 },
 		"scale": 1.1
 	},
+
 	"groundTransform": {
 		"translation": { "x": 0, "y": 0.03, "z": 0 },
 		"rotation": { "x": 0, "y": 28, "z": 0 },
 		"origin": { "x": 1, "y": 0, "z": 0.1 },
 		"scale": 3.9
 	},
+
 	"heldTpIdleAnimation": "holdbothhandslarge",
 	"heldTpUseAnimation": "twohandplaceblock",
 	"tpHandTransform": {
@@ -85,15 +95,18 @@
 		"origin": { "x": 1, "y": 0, "z": 0 },
 		"scale": 0.5
 	},
+
 	"fpHandTransform": {
 		"translation": { "x": -1.7, "y": 0, "z": 1 },
 		"rotation": { "x": 82, "y": -45, "z": 0 }
 	},
+
 	"sounds": {
 		"place": "game:block/ceramicplace",
 		"break": "game:block/ceremicbreak",
 		"hit": "game:block/ceramichit",
 		"walk": "game:walk/stone2"
 	},
+	
 	"materialDensity": 2500
 }
