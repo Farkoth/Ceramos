@@ -1,5 +1,5 @@
 <!-- HOW TO INSTALL -->
-## How to install
+# How to install
 
 1. Download the latest mod version from the [ModDatabase](https://mods.vintagestory.at/ceramos),
 2. Open your game and go to your Mod Manager,
@@ -8,10 +8,11 @@
 5. Don't forget to click Reload Mods button,
 6. Mod is ready to play!
 
-
 <!-- FEATURES -->
 ## Features
+
 What is already in mod:
+
 - 10 types of ceramic tiles called - Cerama,
 - Tools - brushes and spatulas,
 - Clayforming (temporarily disabled), barrel, grinding, powdering resources to get in final Cerama tile,
@@ -23,6 +24,7 @@ What is already in mod:
 
 <!-- ROADMAP -->
 ## Roadmap
+
 - [ ] Patterns and painting mechanics,
 - [x] Amphoraes for your alcohol (available only in Creative),
 - [ ] Mosaic tiles from broken Cerama parts,
