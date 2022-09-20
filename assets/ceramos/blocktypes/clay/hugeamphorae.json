@@ -2,7 +2,7 @@
 	"code": "hugeamphorae",
 	"classByType": {
 		"*-fired": "BlockLiquidContainerTopOpened",
-			"*": "BlockBarrel"
+			"*": "Block"
 	},
 
 	"variantgroups": [

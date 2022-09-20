@@ -2,7 +2,7 @@
 	"code": "normalamphorae",
 	"classByType": {
 		"*-fired": "BlockLiquidContainerTopOpened",
-			"*": "BlockBarrel"
+			"*": "Block"
 	},
 
 	"variantgroups": [
@@ -51,6 +51,12 @@
 	"liquidSelectable": 1,
 	"lightAbsorption": 1,
 	"maxStackSize": 8,
+	"sounds": {
+		"walk": "game:walk/stone",
+		"break": "game:block/ceramicplace",
+		"hit": "game:block/ceramichit",
+		"place": "game:block/ceramicplace"
+	},
 	"sidesolid": {
 		"all": false
 	},
