@@ -1,0 +1,184 @@
+{
+	"tabname-ceramos": "Ceramos",
+	
+	"ceramos-guide":								"Ceramos guida",
+	"ceramos-guide-title":							"Ceramos guida",
+	"ceramos-guide-text":							"<strong>Cerama</strong><br><br>Questo manuale ti aiuterà a comprendere come creare le tue piastrelle Cerama, a colorarle e ad applicarle alle pareti e al pavimento.<br>La preparazione di Cerama consiste in 4 passaggi principali:<br>- Modellazione di una <a href=\"handbook://item-basetile\">piastrella di base</a>",
+	
+	
+	
+	
+	
+	
+	
+	
+	"ceramos:block-toolmold-raw-spatula":			"Stampo crudo per spatola",
+	"ceramos:block-toolmold-burned-spatula":		"Stampo per spatola",
+
+	"ceramos:block-toolmoldcolored-raw-black-spatula":			"Stampo crudo per spatola (Nero)",
+	"ceramos:block-toolmoldcolored-raw-blurple-spatula":		"Stampo crudo per spatola (Blu)",
+	"ceramos:block-toolmoldcolored-raw-brown-spatula":			"Stampo crudo per spatola (Marrone)",
+	"ceramos:block-toolmoldcolored-raw-darkgrey-spatula":		"Stampo crudo per spatola (Grigio scuro)",
+	"ceramos:block-toolmoldcolored-raw-fire-spatula":			"Stampo crudo per spatola (Argilla refrattaria)",
+	"ceramos:block-toolmoldcolored-raw-green-spatula":			"Stampo crudo per spatola (Verde)",
+	"ceramos:block-toolmoldcolored-raw-malachite-spatula":		"Stampo crudo per spatola (Malachite)",
+	"ceramos:block-toolmoldcolored-raw-orange-spatula":			"Stampo crudo per spatola (Arancione)",
+	"ceramos:block-toolmoldcolored-raw-pink-spatula":			"Stampo crudo per spatola (Rosa)",
+	"ceramos:block-toolmoldcolored-raw-purple-spatula":			"Stampo crudo per spatola (Viola)",
+	"ceramos:block-toolmoldcolored-raw-red-spatula":			"Stampo crudo per spatola (Rosso)",
+	"ceramos:block-toolmoldcolored-raw-light-spatula":			"Stampo crudo per spatola (Chiaro)",
+	"ceramos:block-toolmoldcolored-raw-yellow-spatula":			"Stampo crudo per spatola (Giallo)",
+
+	"ceramos:blockcraftdesc-toolmoldcolored-raw-*-spatula":		"To create Spatola heads directly from molten metal",
+
+	"ceramos:block-toolmoldcolored-burned-black-spatula":		"Stampo per spatola (Nero)",
+	"ceramos:block-toolmoldcolored-burned-blurple-spatula":		"Stampo per spatola (Blu)",
+	"ceramos:block-toolmoldcolored-burned-brown-spatula":		"Stampo per spatola (Marrone)",
+	"ceramos:block-toolmoldcolored-burned-darkgrey-spatula":	"Stampo per spatola (Grigio scuro)",
+	"ceramos:block-toolmoldcolored-burned-fire-spatula":		"Stampo per spatola (Argilla refrattaria)",
+	"ceramos:block-toolmoldcolored-burned-green-spatula":		"Stampo per spatola (Verde)",
+	"ceramos:block-toolmoldcolored-burned-malachite-spatula":	"Stampo per spatola (Malachite)",
+	"ceramos:block-toolmoldcolored-burned-orange-spatula":		"Stampo per spatola (Arancione)",
+	"ceramos:block-toolmoldcolored-burned-pink-spatula":		"Stampo per spatola (Rosa)",
+	"ceramos:block-toolmoldcolored-burned-purple-spatula":		"Stampo per spatola (Viola)",
+	"ceramos:block-toolmoldcolored-burned-red-spatula":			"Stampo per spatola (Rosso)",
+	"ceramos:block-toolmoldcolored-burned-light-spatula":		"Stampo per spatola (Chiaro)",
+	"ceramos:block-toolmoldcolored-burned-yellow-spatula":		"Stampo per spatola (Giallo)",
+	
+	
+	"ceramos:item-basetile-dry*":					"Piastrella di ceramica base asciutta",
+	"ceramos:item-basetile-raw*": 					"Piastrella di ceramica base cruda",
+
+	"ceramos:itemdesc-basetile-*":					"Materiale: ceramica",
+	
+	"ceramos:block-cerama-colorful*": 				"Ceramica colorata",
+	"ceramos:block-cerama-crosslines*": 			"Ceramica a linee incrociate",
+	"ceramos:block-cerama-parsley*": 				"Ceramica a trifogli",
+	"ceramos:block-cerama-flower*": 				"Ceramica a fiori",
+	"ceramos:block-cerama-petal*": 					"Ceramica a petali",
+	"ceramos:block-cerama-cyanstars*": 				"Ceramica a stelle ciane",
+	"ceramos:block-cerama-triangles*": 				"Ceramica a triangoli",
+	"ceramos:block-cerama-curles*": 				"Ceramica a riccioli",
+	"ceramos:block-cerama-junglevines*": 			"Ceramica a liane",
+	"ceramos:block-cerama-stamens*": 				"Ceramica a stami",
+	
+	"ceramos:blockdesc-cerama-*":					"Con la colla sulla parte posteriore! Pronta per essere posata",
+	
+	"ceramos:item-ceramatile-colorful*": 			"Ceramica colorata preparata",
+	"ceramos:item-ceramatile-crosslines*": 			"Ceramica a linee incrociate preparata",
+	"ceramos:item-ceramatile-parsley*": 			"Ceramica a trifogli preparata",
+	"ceramos:item-ceramatile-flower*": 				"Ceramica a fiori preparata",
+	"ceramos:item-ceramatile-petal*": 				"Ceramica a petali preparata",
+	"ceramos:item-ceramatile-cyanstars*": 			"Ceramica a stelle ciane preparata",
+	"ceramos:item-ceramatile-triangles*": 			"Ceramica a triangoli preparata",
+	"ceramos:item-ceramatile-curles*": 				"Ceramica a riccioli preparata",
+	"ceramos:item-ceramatile-junglevines*": 		"Ceramica a liane preparata",
+	"ceramos:item-ceramatile-stamens*": 			"Ceramica a stami preparata",
+	
+	"ceramos:itemdesc-ceramatile-*":				"Cotta e preparata per aggiungere la colla",
+
+	"ceramos:item-rawglazedtile-colorful*": 		"Ceramica colorata smaltata cruda",
+	"ceramos:item-rawglazedtile-crosslines*": 		"Ceramica a linee incrociate smaltata cruda",
+	"ceramos:item-rawglazedtile-parsley*": 			"Ceramica a trifogli smaltata cruda",
+	"ceramos:item-rawglazedtile-flower*": 			"Ceramica a fiori smaltata cruda",
+	"ceramos:item-rawglazedtile-petal*": 			"Ceramica a petali smaltata cruda",
+	"ceramos:item-rawglazedtile-cyanstars*": 		"Ceramica a stelle ciane smaltata cruda",
+	"ceramos:item-rawglazedtile-triangles*": 		"Ceramica a triangoli smaltata cruda",
+	"ceramos:item-rawglazedtile-curles*": 			"Ceramica a riccioli smaltata cruda",
+	"ceramos:item-rawglazedtile-junglevines*": 		"Ceramica a liane smaltata cruda",
+	"ceramos:item-rawglazedtile-stamens*": 			"Ceramica a stami smaltata cruda",
+
+	"ceramos:itemdesc-rawglazedtile-*":				"Materiale: ceramica",
+	
+	"ceramos:item-ceramaglue*":						"Colla per ceramica",
+	
+	"ceramos:item-leadfrit-cooked*":				"Fritta al piombo cotta",
+	"ceramos:item-leadfrit-blend*":					"Mistura per fritta al piombo",
+	"ceramos:item-leadfrit-powder*":				"Polvere di fritta al piombo",
+	"ceramos:item-coloredleadfrit-blue*":			"Polvere di fritta al piombo blu",
+	"ceramos:item-coloredleadfrit-red*":			"Polvere di fritta al piombo rossa",
+	"ceramos:item-coloredleadfrit-yellow*":			"Polvere di fritta al piombo gialla",
+	"ceramos:item-coloredleadfrit-purple*":			"Polvere di fritta al piombo viola",
+	"ceramos:item-coloredleadfrit-green*":			"Polvere di fritta al piombo verde",
+	"ceramos:item-coloredleadfrit-orange*":			"Polvere di fritta al piombo arancione",
+	"ceramos:item-coloredleadfrit-black*":			"Polvere di fritta al piombo nera",
+	"ceramos:item-coloredleadfrit-grey*":			"Polvere di fritta al piombo grigia",
+	"ceramos:item-coloredleadfrit-pink*":			"Polvere di fritta al piombo rosa",
+	"ceramos:item-coloredleadfrit-white*":			"Polvere di fritta al piombo bianca",
+
+	"ceramos:item-leadglaze-blue*":					"Smalto al piombo blu",
+	"ceramos:item-leadglaze-red*":					"Smalto al piombo rosso",
+	"ceramos:item-leadglaze-yellow*":				"Smalto al piombo giallo",
+	"ceramos:item-leadglaze-purple*":				"Smalto al piombo viola",
+	"ceramos:item-leadglaze-green*":				"Smalto al piombo verde",
+	"ceramos:item-leadglaze-orange*":				"Smalto al piombo arancione",
+	"ceramos:item-leadglaze-black*":				"Smalto al piombo nero",
+	"ceramos:item-leadglaze-grey*":					"Smalto al piombo grigio",
+	"ceramos:item-leadglaze-pink*":					"Smalto al piombo rosa",
+	"ceramos:item-leadglaze-white*":				"Smalto al piombo bianco",
+
+	"ceramos:incontainer-item-leadglaze-blue":					"Smalto al piombo blu",
+	"ceramos:incontainer-item-leadglaze-red":					"Smalto al piombo rosso",
+	"ceramos:incontainer-item-leadglaze-yellow":				"Smalto al piombo giallo",
+	"ceramos:incontainer-item-leadglaze-purple":				"Smalto al piombo viola",
+	"ceramos:incontainer-item-leadglaze-green":					"Smalto al piombo verde",
+	"ceramos:incontainer-item-leadglaze-orange":				"Smalto al piombo arancione",
+	"ceramos:incontainer-item-leadglaze-black":					"Smalto al piombo nero",
+	"ceramos:incontainer-item-leadglaze-grey":					"Smalto al piombo grigio",
+	"ceramos:incontainer-item-leadglaze-pink":					"Smalto al piombo rosa",
+	"ceramos:incontainer-item-leadglaze-white":					"Smalto al piombo bianco",
+
+	"game:incontainer-item-leadglaze-blue":					"Smalto al piombo blu",
+	"game:incontainer-item-leadglaze-red":					"Smalto al piombo rosso",
+	"game:incontainer-item-leadglaze-yellow":				"Smalto al piombo giallo",
+	"game:incontainer-item-leadglaze-purple":				"Smalto al piombo viola",
+	"game:incontainer-item-leadglaze-green":				"Smalto al piombo verde",
+	"game:incontainer-item-leadglaze-orange":				"Smalto al piombo arancione",
+	"game:incontainer-item-leadglaze-black":				"Smalto al piombo nero",
+	"game:incontainer-item-leadglaze-grey":					"Smalto al piombo grigio",
+	"game:incontainer-item-leadglaze-pink":					"Smalto al piombo rosa",
+	"game:incontainer-item-leadglaze-white":				"Smalto al piombo bianco",
+		
+	"ceramos:item-leadglazepaste-black*":			"Pasta per smalto nero",
+	"ceramos:item-leadglazepaste-blue*":			"Pasta per smalto blu",
+	"ceramos:item-leadglazepaste-grey*":			"Pasta per smalto grigio",
+	"ceramos:item-leadglazepaste-green*":			"Pasta per smalto verde",
+	"ceramos:item-leadglazepaste-orange*":			"Pasta per smalto arancione",
+	"ceramos:item-leadglazepaste-pink*":			"Pasta per smalto rosa",
+	"ceramos:item-leadglazepaste-purple*":			"Pasta per smalto viola",
+	"ceramos:item-leadglazepaste-red*":				"Pasta per smalto rosso",
+	"ceramos:item-leadglazepaste-white*":			"Pasta per smalto bianco",
+	"ceramos:item-leadglazepaste-yellow*":			"Pasta per smalto giallo",
+	
+	"ceramos:item-brush-birch*":					"Manico per spazzola di betulla",
+	"ceramos:item-brush-oak*":						"Manico per spazzola di quercia",
+	"ceramos:item-brush-pine*":						"Manico per spazzola di pino",
+	"ceramos:item-brush-maple*":					"Manico per spazzola di acero",
+	
+	"ceramos:item-spatula-copper*":					"Spatola di rame",
+	"ceramos:item-spatula-tinbronze*":				"Spatola di bronzo allo stagno",
+	"ceramos:item-spatula-bismuthbronze*":			"Spatola di bronzo al bismuto",
+	"ceramos:item-spatula-blackbronze*":			"Spatola di bronzo nero",
+	"ceramos:item-spatula-iron*":					"Spatola di ferro",
+	"ceramos:item-spatula-meteoriciron*":			"Spatola di ferro meteorico",
+	"ceramos:item-spatula-steel*":					"Spatola di acciao",
+
+	"ceramos:item-spatulahead-copper*":				"Lama per spatola di rame",
+	"ceramos:item-spatulahead-tinbronze*":			"Lama per spatola di bronzo allo stagno",
+	"ceramos:item-spatulahead-bismuthbronze*":		"Lama per spatola di bronzo al bismuto",
+	"ceramos:item-spatulahead-blackbronze*":		"Lama per spatola di bronzo nero",
+	"ceramos:item-spatulahead-iron*":				"Lama per spatola di ferro",
+	"ceramos:item-spatulahead-meteoriciron*":		"Lama per spatola di ferro meteorico",
+	"ceramos:item-spatulahead-steel*":				"Lama per spatola di acciao",
+	
+	"ceramos:item-clayblend*":						"Mescola di argilla",
+	
+	"ceramos:incontainer-item-claycream":			"Crema di argilla",
+	"game:incontainer-item-claycream":				"Crema di argilla",
+	"ceramos:item-claycream":						"Crema di argilla"
+	
+	
+	
+	
+	
+}
