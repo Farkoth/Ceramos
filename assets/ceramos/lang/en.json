@@ -6,11 +6,25 @@
 	"ceramos-guide-text":							"<strong>Cerama</strong><br><br>This manual will help you to learn how to create you own Cerama tiles, color them and apply to walls or floor.<br>Preparing Cerama consists of 4 main steps:<br>- Clayforming a <a href=\"handbook://item-basetile\">base tile</a>",
 	
 	
+	"ceramos:block-plastercerama-colorful-east*": 			"Colorful cerama wall",
+	"ceramos:block-plastercerama-crosslines-east*": 		"Crosslines cerama wall",
+	"ceramos:block-plastercerama-parsley-east*": 			"Parsley cerama wall",
+	"ceramos:block-plastercerama-flower-east*": 			"Flower cerama wall",
+	"ceramos:block-plastercerama-petal-east*": 				"Petal cerama wall",
+	"ceramos:block-plastercerama-cyanstars-east*": 			"Cyan stars cerama wall",
+	"ceramos:block-plastercerama-triangles-east*": 			"Triangles cerama wall",
+	"ceramos:block-plastercerama-curles-east*": 			"Curles cerama wall",
+	"ceramos:block-plastercerama-junglevines-east*": 		"Jungle vines cerama wall",
+	"ceramos:block-plastercerama-stamens-east*": 			"Stamens cerama wall",
 	
 	
 	
 	
-	
+	"ceramos:block-hugeamphorae-blue-raw":			"Raw huge amphorae",
+	"ceramos:block-hugeamphorae-blue-fired":		"Huge amphorae",
+	"ceramos:block-normalamphorae-blue-raw":		"Raw amphorae",
+	"ceramos:block-normalamphorae-blue-fired":		"Amphorae",
+
 	
 	"ceramos:block-toolmold-raw-spatula":			"Raw spatula mold",
 	"ceramos:block-toolmold-burned-spatula":		"Spatula mold",

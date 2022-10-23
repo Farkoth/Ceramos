@@ -1,0 +1,51 @@
+{
+	"code": "plastercerama",
+	"behaviors": [ {"name": "HorizontalOrientable", "properties": {  "dropBlockFace": "east" } }],
+	
+	"variantgroups": [
+		{"code": "type", 
+		"states": 
+		["parsley", "stamens", "petal", "cyanstars", "curles", "triangles",
+		"crosslines", "colorful", "flower", "junglevines"]},
+		{ "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"attributes": 
+		{
+		"handbook": { "groupBy": "plastercerama-*" }
+		},
+	"shape": { "base": "game:block/basic/cube" },	
+	
+	"blockmaterial": "Stone",
+	"drawtype": "cube",
+	"creativeinventory": { "general": ["*-east"], "decorative": ["*-east"], "ceramos": ["*-east"] },
+	"replaceable": 200,
+	"resistance": 2.5,
+	"lightAbsorption": 99,
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+	"texturesByType": {
+		"*-north": { 
+			"all": { "base": "game:block/stone/plaster/plain" }, 
+			"south": { "base": "ceramos:block/cerama/{type}*" }
+		},
+		"*-east": { 
+			"all": { "base": "game:block/stone/plaster/plain" }, 
+			"west": { "base": "ceramos:block/cerama/{type}*" }
+		},
+		"*-south": { 
+			"all": { "base": "game:block/stone/plaster/plain" }, 
+			"north": { "base": "ceramos:block/cerama/{type}*" }
+		},
+		"*-west": { 
+			"all": { "base": "game:block/stone/plaster/plain" }, 
+			"east": { "base": "ceramos:block/cerama/{type}*" }
+		}
+			
+		
+	},
+	"sounds": {	"walk": "walk/stone" },
+	"tpHandTransform": {
+		"translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+		"rotation": { "x": -2, "y": 25, "z": -78 },
+		"scale": 0.4
+	}
+}

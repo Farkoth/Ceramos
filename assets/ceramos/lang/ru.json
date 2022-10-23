@@ -5,7 +5,25 @@
 	"ceramos-guide-title":							"Руководство по Керамосу",
 	"ceramos-guide-text":							"Чтобы сделать самую первую плитку Керамы просто начните лепить из огнеупорной глины! Ну а остальная полезная информация будет в следующих релизах",
 	
+	"ceramos:block-plastercerama-colorful-east*": 			"Стена с красочной керамой",
+	"ceramos:block-plastercerama-crosslines-east*": 		"Стена с поперечной керамой",
+	"ceramos:block-plastercerama-parsley-east*": 			"Стена с керамой Петрушка",
+	"ceramos:block-plastercerama-flower-east*": 			"Стена с керамой Цветок",
+	"ceramos:block-plastercerama-petal-east*": 				"Стена с керамой Лепесток",
+	"ceramos:block-plastercerama-cyanstars-east*": 			"Стена с керамой Бирюзовые звёзды",
+	"ceramos:block-plastercerama-triangles-east*": 			"Стена с керамой Треугольники",
+	"ceramos:block-plastercerama-curles-east*": 			"Стена с керамой Завитки",
+	"ceramos:block-plastercerama-junglevines-east*": 		"Стена с керамой Лозы джунглей",
+	"ceramos:block-plastercerama-stamens-east*": 			"Стена с керамой Тычинки",
 	
+	
+	
+	
+	"ceramos:block-hugeamphorae-blue-raw":			"Большая амфора (необож.)",
+	"ceramos:block-hugeamphorae-blue-fired":		"Большая амфора",
+	"ceramos:block-normalamphorae-blue-raw":		"Амфора (необож.)",
+	"ceramos:block-normalamphorae-blue-fired":		"Амфора",
+
 	"ceramos:block-toolmold-raw-spatula":			"Форма для шпателя (необож.)",
 	"ceramos:block-toolmold-burned-spatula":		"Форма для шпателя",
 
