@@ -31,5 +31,5 @@ What is already in mod:
 - [x] Improved recipes,
 - [ ] More tools,
 - [x] Bricklayers compatibilty (added first step of Compat),
-- [ ] Building blocks - maybe like bricks with mosaic,
+- [x] Building blocks - maybe like bricks with mosaic,
 - [ ] And more, what i even cant imagine right now.
