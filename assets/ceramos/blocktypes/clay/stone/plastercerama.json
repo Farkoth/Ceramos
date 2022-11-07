@@ -1,5 +1,6 @@
 {
 	"code": "plastercerama",
+	"class": "Block",
 	"behaviors": [ {"name": "HorizontalOrientable", "properties": {  "dropBlockFace": "east" } }],
 	
 	"variantgroups": [
@@ -24,18 +25,18 @@
 	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
 	"texturesByType": {
 		"*-north": { 
-			"all": { "base": "game:block/stone/plaster/plain" }, 
+			"all": { "base": "game:block/stone/plaster/plain" },
 			"south": { "base": "ceramos:block/cerama/{type}*" }
 		},
 		"*-east": { 
-			"all": { "base": "game:block/stone/plaster/plain" }, 
+			"all": { "base": "game:block/stone/plaster/plain" },
 			"west": { "base": "ceramos:block/cerama/{type}*" }
 		},
 		"*-south": { 
 			"all": { "base": "game:block/stone/plaster/plain" }, 
 			"north": { "base": "ceramos:block/cerama/{type}*" }
 		},
-		"*-west": { 
+		"*-west": {
 			"all": { "base": "game:block/stone/plaster/plain" }, 
 			"east": { "base": "ceramos:block/cerama/{type}*" }
 		}

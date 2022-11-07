@@ -6,19 +6,18 @@
 	},
 
 	"variantgroups": [
-		{ "code": "type", "states": ["blue"] },
 		{ "code": "state", "states": ["raw", "fired"] }
 	],
 
 	"shape": { "base": "ceramos:block/clay/normalamphorae" },
 	"texturesByType": {
-		"*normalamphorae-blue-raw": { "ceramic": {  "base": "game:block/clay/blueclay" }  },
-		"*normalamphorae-blue-fired": { "ceramic": {  "base": "game:block/clay/ceramic-dark" }	}
+		"*normalamphorae-raw": { "ceramic": {  "base": "ceramos:block/clay/raw" }  },
+		"*normalamphorae-fired": { "ceramic": {  "base": "ceramos:block/clay/burned" }	}
 	},
 
 	"behaviors": [
 		{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.625, "z2": 1 } } },
-		{ "name": "Unplaceable", "__comment": "The ground storable obsoletes this being a block. Should be an item, but is kept a block for backwards compatibility" },	
+		{ "name": "Unplaceable" },	
 		{ "name": "RightClickPickup"} 
 	],
 
@@ -70,12 +69,12 @@
 	},
 
 	"combustiblePropsByType": {
-		"jug-blue-raw": {
+		"normalamphorae-raw": {
 			"meltingPoint": 600,
 			"meltingDuration": 30,
 			"smeltedRatio": 1,
 			"smeltingType": "fire",
-			"smeltedStack": { "type": "block", "code": "ceramos:amphorae-blue-fired" },
+			"smeltedStack": { "type": "block", "code": "ceramos:normalamphorae-fired" },
 			"requiresContainer": false
 		}
 	},

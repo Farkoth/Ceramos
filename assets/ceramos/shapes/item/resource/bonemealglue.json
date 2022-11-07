@@ -6,7 +6,7 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textures": {
-		"glue": "ceramos:item/resource/ceramaglue"
+		"glue": "ceramos:item/resource/gluemix"
 	},
 	"elements": [
 		{

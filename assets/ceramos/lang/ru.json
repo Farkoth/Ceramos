@@ -5,6 +5,7 @@
 	"ceramos-guide-title":							"Руководство по Керамосу",
 	"ceramos-guide-text":							"Чтобы сделать самую первую плитку Керамы просто начните лепить из огнеупорной глины! Ну а остальная полезная информация будет в следующих релизах",
 	
+
 	"ceramos:block-plastercerama-colorful-east*": 			"Стена с красочной керамой",
 	"ceramos:block-plastercerama-crosslines-east*": 		"Стена с поперечной керамой",
 	"ceramos:block-plastercerama-parsley-east*": 			"Стена с керамой Петрушка",
@@ -16,7 +17,18 @@
 	"ceramos:block-plastercerama-junglevines-east*": 		"Стена с керамой Лозы джунглей",
 	"ceramos:block-plastercerama-stamens-east*": 			"Стена с керамой Тычинки",
 	
+	"ceramos:block-ceramablock-colorful": 					"Блок красочной керамы",
+	"ceramos:block-ceramablock-crosslines": 				"Блок поперечной керамы",
+	"ceramos:block-ceramablock-parsley": 					"Блок керамы Петрушка",
+	"ceramos:block-ceramablock-flower": 					"Блок керамы Цветок",
+	"ceramos:block-ceramablock-petal": 						"Блок керамы Лепесток",
+	"ceramos:block-ceramablock-cyanstars": 					"Блок керамы Бирюзовые звёзды",
+	"ceramos:block-ceramablock-triangles": 					"Блок керамы Треугольники",
+	"ceramos:block-ceramablock-curles": 					"Блок керамы Завитки",
+	"ceramos:block-ceramablock-junglevines": 				"Блок керамы Лозы Джунглей",
+	"ceramos:block-ceramablock-stamens": 					"Блок керамы Тычинки",
 	
+	"ceramos:blockdesc-ceramablock-*":						"Звучит пусто",
 	
 	
 	"ceramos:block-hugeamphorae-blue-raw":			"Большая амфора (необож.)",
