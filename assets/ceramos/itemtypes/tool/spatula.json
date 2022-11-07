@@ -33,13 +33,13 @@
 	"damagedby": [ "blockbreaking", "attacking" ],
 	"enabled": true,
 	"durabilitybytype": {
-		"ceramos:spatula-copper": 200,
-		"ceramos:spatula-tinbronze": 350,
-		"ceramos:spatula-bismuthbronze": 400,
-		"ceramos:spatula-blackbronze": 450,
-		"ceramos:spatula-iron": 800,
-		"ceramos:spatula-meteoriciron": 1100,
-		"ceramos:spatula-steel": 2150
+		"spatula-copper": 200,
+		"spatula-tinbronze": 350,
+		"spatula-bismuthbronze": 400,
+		"spatula-blackbronze": 450,
+		"spatula-iron": 800,
+		"spatula-meteoriciron": 1100,
+		"spatula-steel": 2150
 	},
 
 	"heldTpHitAnimation": "breaktool",
