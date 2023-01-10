@@ -1,5 +1,5 @@
 {
-	"code": "plastercerama",
+	"code": "ceramawall",
 	"class": "Block",
 	"behaviors": [ {"name": "HorizontalOrientable", "properties": {  "dropBlockFace": "east" } }],
 	
@@ -12,9 +12,11 @@
 	],
 	"attributes": 
 		{
-		"handbook": { "groupBy": "plastercerama-*" }
+		"handbook": { "groupBy": "ceramawall-*" }
 		},
-	"shape": { "base": "game:block/basic/cube" },	
+	"shape": { "base": "game:block/basic/cube" },
+
+	"collisionSelectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 1, "z2": 1 },
 	
 	"blockmaterial": "Stone",
 	"drawtype": "cube",
@@ -25,20 +27,21 @@
 	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
 	"texturesByType": {
 		"*-north": { 
-			"all": { "base": "game:block/stone/plaster/plain" },
-			"south": { "base": "ceramos:block/cerama/{type}*" }
+			"all": { "base": "game:block/clay/hardened/fire*" },
+			"south": { "base": "ceramos:block/cerama/dull/{type}*" }
 		},
 		"*-east": { 
-			"all": { "base": "game:block/stone/plaster/plain" },
-			"west": { "base": "ceramos:block/cerama/{type}*" }
+			"all": { "base": "game:block/clay/hardened/fire*" },
+			"west": { "base": "ceramos:block/cerama/dull/{type}*" }
+
 		},
 		"*-south": { 
-			"all": { "base": "game:block/stone/plaster/plain" }, 
-			"north": { "base": "ceramos:block/cerama/{type}*" }
+			"all": { "base": "game:block/clay/hardened/fire*" },
+			"north": { "base": "ceramos:block/cerama/dull/{type}*" }
 		},
 		"*-west": {
-			"all": { "base": "game:block/stone/plaster/plain" }, 
-			"east": { "base": "ceramos:block/cerama/{type}*" }
+			"all": { "base": "game:block/clay/hardened/fire*" },
+			"east": { "base": "ceramos:block/cerama/dull/{type}*" }
 		}
 			
 		

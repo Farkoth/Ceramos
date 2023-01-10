@@ -21,7 +21,7 @@
 	"resistance": 2.5,
 	"lightAbsorption": 99,
 	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
-	"textures": { "all": { "base": "ceramos:block/cerama/{type}*" }},
+	"textures": { "all": { "base": "ceramos:block/cerama/dull/{type}*" }},
 	"sounds": {
 		"place": "game:block/ceramicplace",
 		"break": "game:block/rock-break-pickaxe",

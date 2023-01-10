@@ -42,11 +42,13 @@
 		"all": { "base": "ceramos:block/clay/raw" }
 	},
 
+	"vertexFlags": { "reflectiveMode": 3 },
+
 	"combustibleProps": {
 		"smeltingPoint": 850,
 		"meltingDuration": 15,
 		"smeltingType": "fire",
-		"smeltedStack": { "type": "item", "code": "ceramos:ceramatile-{type}" },
+		"smeltedStack": { "type": "item", "code": "ceramos:ceramatile-{type}-dull" },
 		"requiresContainer": false
 	},
 

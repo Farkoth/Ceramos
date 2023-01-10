@@ -2,6 +2,7 @@
 	"code": "claycream",
 	"class": "ItemLiquidPortion",
 	"matterState": "liquid",
+	
 	"attributes": {
 		"handbook": {
 			"ignoreCreativeInvStacks": true

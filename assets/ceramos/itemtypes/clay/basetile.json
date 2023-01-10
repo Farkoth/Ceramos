@@ -4,16 +4,16 @@
 		{
 		"name": "GroundStorable",
 			"properties": {
-				"layout": "Stacking",
-				"placeRemoveSound": "game:sounds/block/ceramicplace",
-				"stackingModel": "ceramos:block/layers/pileoftiles.json",
-				"collisionBox": { "x1": 0.0312, "y1": 0, "z1": 0.0312, "x2": 0.95, "y2": 0.0625, "z2": 0.95 },
-				"cbScaleYByLayer": 1,
-				"tessQuantityElements": 3,
-				"stackingCapacity": 16,
-				"transferQuantity": 1,
-				"bulkTransferQuantity": 2,
-				"maxFireable": 10
+			"layout": "Stacking",
+			"placeRemoveSound": "game:sounds/block/ceramicplace",
+			"stackingModel": "ceramos:block/layers/pileoftiles.json",
+			"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.0625, "z2": 1 },
+			"cbScaleYByLayer": 1,
+			"tessQuantityElements": 3,
+			"stackingCapacity": 16,
+			"transferQuantity": 1,
+			"bulkTransferQuantity": 2,
+			"maxFireable": 10
 			}
 		}
 	],

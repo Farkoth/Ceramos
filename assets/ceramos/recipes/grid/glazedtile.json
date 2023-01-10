@@ -10,7 +10,7 @@
 		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
 		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 1 },
 		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 1 },
-		"E": { "type": "item", "code": "ceramos:leadglazepaste-grey", "quantity": 1 },
+		"E": { "type": "item", "code": "ceramos:leadglazepaste-gray", "quantity": 1 },
 		"O": { "type": "item", "code": "ceramos:leadglazepaste-orange", "quantity": 1 }
 		},
 	"width": 3,
@@ -28,7 +28,7 @@
 		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
 		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 1 },
 		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 1 },
-		"E": { "type": "item", "code": "ceramos:leadglazepaste-grey", "quantity": 1 }
+		"E": { "type": "item", "code": "ceramos:leadglazepaste-gray", "quantity": 1 }
 		},
 	"width": 3,
 	"height": 3,
@@ -44,7 +44,7 @@
 		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 1 },
 		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
 		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 1 },
-		"E": { "type": "item", "code": "ceramos:leadglazepaste-grey", "quantity": 1 }
+		"E": { "type": "item", "code": "ceramos:leadglazepaste-gray", "quantity": 1 }
 		},
 	"width": 2,
 	"height": 3,
@@ -90,9 +90,9 @@
 		"K": { "type": "item", 
 				"code": "ceramos:brush-*", "isTool": true, "toolDurabilityCost": 4, 
 				"name": "wood", "allowedVariants": ["birch", "oak", "maple", "pine"] },
-		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 1 },
+		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 2 },
 		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
-		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 1 }
+		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 2 }
 		},
 	"width": 2,
 	"height": 2,
@@ -109,7 +109,7 @@
 		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 1 },
 		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
 		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 1 },
-		"E": { "type": "item", "code": "ceramos:leadglazepaste-grey", "quantity": 1 }
+		"E": { "type": "item", "code": "ceramos:leadglazepaste-gray", "quantity": 1 }
 		},
 	"width": 3,
 	"height": 3,
@@ -126,7 +126,7 @@
 		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 1 },
 		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
 		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 1 },
-		"E": { "type": "item", "code": "ceramos:leadglazepaste-grey", "quantity": 1 }
+		"E": { "type": "item", "code": "ceramos:leadglazepaste-gray", "quantity": 1 }
 		},
 	"width": 3,
 	"height": 3,
@@ -153,13 +153,12 @@
 		"K": { "type": "item", 
 				"code": "ceramos:brush-*", "isTool": true, "toolDurabilityCost": 4, 
 				"name": "wood", "allowedVariants": ["birch", "oak", "maple", "pine"] },
-		"G": { "type": "item", "code": "ceramos:leadglazepaste-green", "quantity": 1 },
+		"G": { "type": "item", "code": "ceramos:leadglazepaste-green", "quantity": 2 },
 		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
-		"Y": { "type": "item", "code": "ceramos:leadglazepaste-yellow", "quantity": 1 }
+		"Y": { "type": "item", "code": "ceramos:leadglazepaste-yellow", "quantity": 2 }
 		},
 	"width": 2,
 	"height": 2,
 	"output": { "type": "item", "code": "ceramos:rawglazedtile-flower", "quantity": 4 }
 	}
-	
 ]

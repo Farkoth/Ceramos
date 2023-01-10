@@ -22,16 +22,24 @@
 				"states": 
 				["parsley", "stamens", "petal", "cyanstars", "curles", "triangles",
 				"crosslines", "colorful", "flower", "junglevines"] },
+				{ "code": "surface", "states": ["shiny", "dull"] },
 		{ "code": "side", "states": [ "north", "east", "south", "west", "up", "down"] }
 	],
 
 	"shapeByType": {
-		"*-down": { "base": "ceramos:block/clay/cerama" },
-		"*-up": { "base": "ceramos:block/clay/cerama", "rotateX": 180 }, 
-		"*-north": { "base": "ceramos:block/clay/cerama", "rotateX": 90 },
-		"*-east": { "base": "ceramos:block/clay/cerama", "rotateX": 90, "rotateY": 180, "rotateZ": 270 },
-		"*-west": { "base": "ceramos:block/clay/cerama", "rotateX": 90, "rotateY": 0, "rotateZ": 270 },
-		"*-south": { "base": "ceramos:block/clay/cerama", "rotateX": 270 }
+		"*dull-down": { "base": "ceramos:block/clay/cerama" },
+		"*dull-up": { "base": "ceramos:block/clay/cerama", "rotateX": 180 }, 
+		"*dull-north": { "base": "ceramos:block/clay/cerama", "rotateX": 90 },
+		"*dull-east": { "base": "ceramos:block/clay/cerama", "rotateX": 90, "rotateY": 180, "rotateZ": 270 },
+		"*dull-west": { "base": "ceramos:block/clay/cerama", "rotateX": 90, "rotateY": 0, "rotateZ": 270 },
+		"*dull-south": { "base": "ceramos:block/clay/cerama", "rotateX": 270 },
+
+		"*shiny-down": { "base": "ceramos:block/clay/ceramashiny" },
+		"*shiny-up": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 180 }, 
+		"*shiny-north": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 90 },
+		"*shiny-east": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 90, "rotateY": 180, "rotateZ": 270 },
+		"*shiny-west": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 90, "rotateY": 0, "rotateZ": 270 },
+		"*shiny-south": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 270 }
 	},
 
 	"sidesolidByType": {
@@ -58,26 +66,45 @@
 	"resistance": 1,
 	"lightAbsorption": 1,
 	"emitSideAo": { "all": false },
-	"textures": {
-		"up": { "base": "ceramos:block/cerama/{type}" },
-		"all": { "base": "ceramos:block/clay/burned" }	
+	"texturesByType": {
+		"*dull-*": {
+			"up": { "base": "ceramos:block/cerama/dull/{type}" },
+			"all": { "base": "ceramos:block/clay/burned" }
+		},
+		"*shiny-*": {
+			"up": { "base": "ceramos:block/cerama/shiny/{type}" },
+			"all": { "base": "ceramos:block/clay/burned" }
+		}
 	},
 
 	"drops": [
 		{
 			"type": "item", 
-			"code": "ceramos:ceramatile-{type}",
+			"code": "ceramos:ceramatile-{type}-{surface}",
 			"quantity": { "avg": 0.7 }
 		}
 	],
 
-	"vertexFlags": { "zOffset": 1 },
-	"guiTransform": {
-		"rotate": false,
-		"translation": { "x": -1, "y": 6, "z": 0 },
-		"rotation": { "x": -38, "y": 0, "z": 0 },
-		"origin": { "x": 0.5, "y": 0.1, "z": 0.1 },
-		"scale": 1.1
+	"vertexFlags": {
+		"zOffset": 1
+	},
+
+	"guiTransformByType": {
+		"*dull-down": {
+			"rotate": false,
+			"translation": { "x": -1, "y": 6, "z": 0 },
+			"rotation": { "x": -38, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.1 },
+			"scale": 1.1
+		},
+		"*shiny-down": {
+			"rotate": false,
+			"translation": { "x": 2, "y": 6, "z": 0 },
+			"rotation": { "x": -45, "y": -15, "z": -10 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.1 },
+			"scale": 1.1
+		}
+
 	},
 
 	"groundTransform": {

@@ -1,0 +1,29 @@
+[
+	{
+	"code": "mix",
+	"ingredients": [
+		{ "type": "item", "code": "game:waterportion", "litres": 1 },
+		{ "type": "item", "code": "game:bonemeal", "quantity": 2 }
+	],
+	"output": { "type": "item", "code": "ceramos:mix-bonemeal", "litres": 2 }
+	},
+
+    {
+    "code": "base",
+    "ingredients": [
+        { "type": "item", "code": "ceramos:mix-bonemeal", "litres": 1 },
+        { "type": "item", "code": "game:flour-*", "quantity": 1, "name": "type", "allowedVariants":[ "rye", "spelt", "sunflower" ]  }
+    ],
+    "output": { "type": "item", "code": "ceramos:mix-base", "litres": 1 }
+    },
+
+	{
+    "code": "glue",
+    "sealHours": 12,
+    "ingredients": [
+        { "type": "item", "code": "ceramos:mix-base", "litres": 1 },
+        { "type": "item", "code": "game:resin", "quantity": 1 }
+    ],
+    "output": { "type": "item", "code": "ceramos:bonemealglue", "quantity": 1 }
+    }
+]

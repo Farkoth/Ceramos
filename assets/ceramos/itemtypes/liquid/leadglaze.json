@@ -3,7 +3,7 @@
 	"class": "ItemLiquidPortion",
 	"matterState": "liquid",
     "variantgroups": [
-		{ "code": "type","states": [ "blue", "red", "yellow", "purple", "green", "orange", "black", "grey", "pink", "white" ] }
+		{ "code": "type","states": [ "blue", "red", "yellow", "purple", "green", "orange", "black", "gray", "pink", "white" ] }
 	],
 
 	"attributes": {

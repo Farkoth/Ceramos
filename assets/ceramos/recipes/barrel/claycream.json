@@ -5,6 +5,6 @@
 		{ "type": "item", "code": "game:waterportion", "litres": 1 },
 		{ "type": "item", "code": "game:clay-*", "quantity": 2, "allowedVariants": [ "fire", "blue" ], "name": "clay" }
 	],
-	"output": { "type": "item", "code": "ceramos:claycream", "litres": 1 }
+	"output": { "type": "item", "code": "ceramos:claycream", "litres": 2 }
 	}
 ]

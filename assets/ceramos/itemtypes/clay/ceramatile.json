@@ -3,17 +3,31 @@
 	"behaviors": [
 		{
 		"name": "GroundStorable",
-			"properties": {
-			"layout": "Stacking",
-			"placeRemoveSound": "game:sounds/block/ceramicplace",
-			"stackingModel": "ceramos:block/layers/pileoftiles.json",
-			"collisionBox": { "x1": 0.0312, "y1": 0, "z1": 0.0312, "x2": 0.95, "y2": 0.0625, "z2": 0.95 },
-			"cbScaleYByLayer": 1,
-			"tessQuantityElements": 3,
-			"stackingCapacity": 16,
-			"transferQuantity": 1,
-			"bulkTransferQuantity": 2,
-			"maxFireable": 10
+			"propertiesByType": {
+				"*-dull":{
+					"layout": "Stacking",
+					"placeRemoveSound": "game:sounds/block/ceramicplace",
+					"stackingModel": "ceramos:block/layers/pileoftiles.json",
+					"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.0625, "z2": 1 },
+					"cbScaleYByLayer": 1,
+					"tessQuantityElements": 3,
+					"stackingCapacity": 16,
+					"transferQuantity": 1,
+					"bulkTransferQuantity": 2,
+					"maxFireable": 10
+				},
+				"*-shiny":{
+					"layout": "Stacking",
+					"placeRemoveSound": "game:sounds/block/ceramicplace",
+					"stackingModel": "ceramos:block/layers/pileoftilesshiny.json",
+					"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.0625, "z2": 1 },
+					"cbScaleYByLayer": 1,
+					"tessQuantityElements": 3,
+					"stackingCapacity": 16,
+					"transferQuantity": 1,
+					"bulkTransferQuantity": 2,
+					"maxFireable": 10
+				}
 			}
 		}
 	],
@@ -27,28 +41,48 @@
 		{ "code": "type",
 		"states":
 				["parsley", "stamens", "petal", "cyanstars", "curles", "triangles",
-				"crosslines", "colorful", "flower", "junglevines"] }
+				"crosslines", "colorful", "flower", "junglevines"] },
+		{ "code": "surface", "states": ["shiny", "dull"] }
 	],
 
-	"shape": { "base": "ceramos:block/clay/ceramatile" },
+	"shapeByType": { 
+		"*-dull": {"base": "ceramos:block/clay/ceramatile" },
+		"*-shiny": {"base": "ceramos:block/clay/ceramatileshiny" }
+	},
 	"maxstacksize": 12,
 	"blockmaterial": "Ceramic",
 	"creativeinventory": { "general": ["*"], "decorative": ["*"], "ceramos": ["*"] },
 	"replaceable": 700,
 	"resistance": 1,
 	"emitSideAo": { "all": false },
-	"textures": {
-		"up": { "base": "ceramos:block/cerama/{type}" },
-		"all": { "base": "ceramos:block/clay/burned" },
-		"wood": { "base": "game:block/wood/debarked/oak" }
+	"texturesByType": {
+		"*-dull": {
+			"up": { "base": "ceramos:block/cerama/dull/{type}" },
+			"all": { "base": "ceramos:block/clay/burned" },
+			"wood": { "base": "game:block/wood/debarked/oak" }
+		},
+		"*-shiny": {
+			"up": { "base": "ceramos:block/cerama/shiny/{type}" },
+			"all": { "base": "ceramos:block/clay/burned" },
+			"wood": { "base": "game:block/wood/debarked/oak" }
+		}
 	},
 
-	"guiTransform": {
+	"guiTransformByType": {
+		"*-dull": {
 		"rotate": false,
 		"translation": { "x": 3, "y": -6, "z": 0 },
 		"rotation": { "x": 155, "y": 135, "z": 0 },
 		"origin": { "x": 0, "y": 0, "z": 0 },
 		"scale": 1.1
+		},
+		"*-shiny": {
+		"rotate": false,
+		"translation": { "x": -1, "y": -6, "z": 0 },
+		"rotation": { "x": 155, "y": 125, "z": -10 },
+		"origin": { "x": 0, "y": 0, "z": 0 },
+		"scale": 1.1
+		}
 	},
 	"groundTransform": {
 		"translation": { "x": 0, "y": 0.03, "z": 0 },

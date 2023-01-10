@@ -31,8 +31,6 @@
 	"ceramos:blockdesc-ceramablock-*":						"Звучит пусто",
 	
 	
-	"ceramos:block-hugeamphorae-blue-raw":			"Большая амфора (необож.)",
-	"ceramos:block-hugeamphorae-blue-fired":		"Большая амфора",
 	"ceramos:block-normalamphorae-blue-raw":		"Амфора (необож.)",
 	"ceramos:block-normalamphorae-blue-fired":		"Амфора",
 
@@ -42,7 +40,7 @@
 	"ceramos:block-toolmoldcolored-raw-black-spatula":			"Форма для шпателя (необож.) (Чёрная)",
 	"ceramos:block-toolmoldcolored-raw-blurple-spatula":		"Форма для шпателя (необож.) (Голубая)",
 	"ceramos:block-toolmoldcolored-raw-brown-spatula":			"Форма для шпателя (необож.) (Коричневая)",
-	"ceramos:block-toolmoldcolored-raw-darkgrey-spatula":		"Форма для шпателя (необож.) (Тёмно-серая)",
+	"ceramos:block-toolmoldcolored-raw-darkgray-spatula":		"Форма для шпателя (необож.) (Тёмно-серая)",
 	"ceramos:block-toolmoldcolored-raw-fire-spatula":			"Форма для шпателя (необож.) (Огнеупорная)",
 	"ceramos:block-toolmoldcolored-raw-green-spatula":			"Форма для шпателя (необож.) (Зелёная)",
 	"ceramos:block-toolmoldcolored-raw-malachite-spatula":		"Форма для шпателя (необож.) (Малахитовая)",
@@ -56,7 +54,7 @@
 	"ceramos:block-toolmoldcolored-burned-black-spatula":		"Форма для шпателя (Чёрная)",
 	"ceramos:block-toolmoldcolored-burned-blurple-spatula":		"Форма для шпателя (Голубая)",
 	"ceramos:block-toolmoldcolored-burned-brown-spatula":		"Форма для шпателя (Коричневая)",
-	"ceramos:block-toolmoldcolored-burned-darkgrey-spatula":	"Форма для шпателя (Тёмно-серая)",
+	"ceramos:block-toolmoldcolored-burned-darkgray-spatula":	"Форма для шпателя (Тёмно-серая)",
 	"ceramos:block-toolmoldcolored-burned-fire-spatula":		"Форма для шпателя (Огнеупорная)",
 	"ceramos:block-toolmoldcolored-burned-green-spatula":		"Форма для шпателя (Зелёная)",
 	"ceramos:block-toolmoldcolored-burned-malachite-spatula":	"Форма для шпателя (Малахитовая)",
@@ -111,7 +109,7 @@
 
 	"ceramos:item-rawglazedtile-*":					"Материал: Керамика",
 	
-	"ceramos:item-ceramaglue*":						"Клей для керамы",
+	"ceramos:item-bonemealglue*":					"Клей из костной муки",
 	
 	"ceramos:item-leadfrit-cooked*":				"Обожжённая свинцовая фритта",
 	"ceramos:item-leadfrit-blend*":					"Смесь свинцовой фритты",
@@ -123,7 +121,7 @@
 	"ceramos:item-coloredleadfrit-green*":			"Зелёный порошок свинцовой фритты",
 	"ceramos:item-coloredleadfrit-orange*":			"Оранжевый порошок свинцовой фритты",
 	"ceramos:item-coloredleadfrit-black*":			"Чёрный порошок свинцовой фритты",
-	"ceramos:item-coloredleadfrit-grey*":			"Серый порошок свинцовой фритты",
+	"ceramos:item-coloredleadfrit-gray*":			"Серый порошок свинцовой фритты",
 	"ceramos:item-coloredleadfrit-pink*":			"Розовый порошок свинцовой фритты",
 	"ceramos:item-coloredleadfrit-white*":			"Белый порошок свинцовой фритты",
 
@@ -134,7 +132,7 @@
 	"ceramos:item-leadglaze-green*":				"Зелёная свинцовая глазурь",
 	"ceramos:item-leadglaze-orange*":				"Оранжевая свинцовая глазурь",
 	"ceramos:item-leadglaze-black*":				"Чёрная свинцовая глазурь",
-	"ceramos:item-leadglaze-grey*":					"Серая свинцовая глазурь",
+	"ceramos:item-leadglaze-gray*":					"Серая свинцовая глазурь",
 	"ceramos:item-leadglaze-pink*":					"Розовая свинцовая глазурь",
 	"ceramos:item-leadglaze-white*":				"Белая свинцовая глазурь",
 
@@ -145,7 +143,7 @@
 	"ceramos:incontainer-item-leadglaze-green":					"Зелёная свинцовая глазурь",
 	"ceramos:incontainer-item-leadglaze-orange":				"Оранжевая свинцовая глазурь",
 	"ceramos:incontainer-item-leadglaze-black":					"Чёрная свинцовая глазурь",
-	"ceramos:incontainer-item-leadglaze-grey":					"Серая свинцовая глазурь",
+	"ceramos:incontainer-item-leadglaze-gray":					"Серая свинцовая глазурь",
 	"ceramos:incontainer-item-leadglaze-pink":					"Розовая свинцовая глазурь",
 	"ceramos:incontainer-tem-leadglaze-white":					"Белая свинцовая глазурь",
 
@@ -156,13 +154,13 @@
 	"game:incontainer-item-leadglaze-green":				"Зелёная свинцовая глазурь",
 	"game:incontainer-item-leadglaze-orange":				"Оранжевая свинцовая глазурь",
 	"game:incontainer-item-leadglaze-black":				"Чёрная свинцовая глазурь",
-	"game:incontainer-item-leadglaze-grey":					"Серая свинцовая глазурь",
+	"game:incontainer-item-leadglaze-gray":					"Серая свинцовая глазурь",
 	"game:incontainer-item-leadglaze-pink":					"Розовая свинцовая глазурь",
 	"game:incontainer-tem-leadglaze-white":					"Белая свинцовая глазурь",
 		
 	"ceramos:item-leadglazepaste-black*":			"Чёрная глазурная паста",
 	"ceramos:item-leadglazepaste-blue*":			"Голубая глазурная паста",
-	"ceramos:item-leadglazepaste-grey*":			"Серая глазурная паста",
+	"ceramos:item-leadglazepaste-gray*":			"Серая глазурная паста",
 	"ceramos:item-leadglazepaste-green*":			"Зелёная глазурная паста",
 	"ceramos:item-leadglazepaste-orange*":			"Оранжевая глазурная паста",
 	"ceramos:item-leadglazepaste-pink*":			"Розовая глазурная паста",
