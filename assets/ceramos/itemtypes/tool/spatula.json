@@ -2,9 +2,10 @@
 	"code": "spatula",
 	"drawtype": "json",
 	"shape": { "base": "ceramos:item/tool/spatula" },
-	"variantgroups": [
-		{ "code": "material", "states": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] }
-			],
+	"variantgroups": [{
+		 "code": "material", "states": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] 
+		}
+	],
 
 	"textures": {
 		"metal": { "base": "game:block/metal/ingot/{material}" },

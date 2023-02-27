@@ -1,6 +1,6 @@
 {
 	"code": "polisher",
-		
+	"drawtype": "json",
 	"shape": { "base": "ceramos:item/tool/polisher" },
 	"variantgroups": [{
 	"code": "material",
