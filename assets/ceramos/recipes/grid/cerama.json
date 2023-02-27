@@ -10,6 +10,6 @@
 	},
 	"width": 2,
 	"height": 2,
-	"output": { "type": "block", "code": "ceramos:cerama-{type}-dull-*", "quantity": 5 }
+	"output": { "type": "block", "code": "ceramos:cerama-{type}-dull", "quantity": 5 }
 	}
 ]
