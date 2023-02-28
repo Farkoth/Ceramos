@@ -223,6 +223,11 @@
 	"ceramos:item-spatulahead-iron*":				"Iron spatula blade",
 	"ceramos:item-spatulahead-meteoriciron*":		"Meteoric iron spatula blade",
 	"ceramos:item-spatulahead-steel*":				"Steel spatula blade",
+
+	"ceramos:item-polisher-andesite*":					"Andesite polisher",
+	"ceramos:item-polisher-granite*":					"Granite polisher",
+	"ceramos:item-polisher-basalt*":					"Basalt polisher",
+	"ceramos:item-polisher-peridotite*":				"Peridotite polisher",
 		
 	"ceramos:item-clayblend*":						"Clay blend",
 	

@@ -3,13 +3,27 @@
 	"ingredientPattern": "CS,M_",
 	"ingredients": {
 		"C": { "type": "item", "code": "ceramos:ceramatile-*-dull", "name": "type", "quantity": 5 },
-		"M": { "type": "item", "code": "ceramos:bonemealglue", "quantity": 2 },
+		"M": { "type": "item", "code": "ceramos:bonemealglue", "quantity": 1 },
 		"S": { "type": "item", 
 				"code": "ceramos:spatula-*", "isTool": true, "toolDurabilityCost": 3, 
 				"name": "wood", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }
 	},
 	"width": 2,
 	"height": 2,
-	"output": { "type": "block", "code": "ceramos:cerama-{type}-dull", "quantity": 5 }
-	}
+	"output": { "type": "block", "code": "ceramos:cerama-{type}-dull-down", "quantity": 5 }
+	},
+
+	{
+		"ingredientPattern": "CS,M_",
+		"ingredients": {
+			"C": { "type": "item", "code": "ceramos:ceramatile-*-shiny", "name": "type", "quantity": 5 },
+			"M": { "type": "item", "code": "ceramos:bonemealglue", "quantity": 1 },
+			"S": { "type": "item", 
+					"code": "ceramos:spatula-*", "isTool": true, "toolDurabilityCost": 3, 
+					"name": "wood", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }
+		},
+		"width": 2,
+		"height": 2,
+		"output": { "type": "block", "code": "ceramos:cerama-{type}-shiny-down", "quantity": 5 }
+		}
 ]

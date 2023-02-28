@@ -2,16 +2,16 @@
 	{
 	"ingredientPattern": "C_,MS,P_",
 	"ingredients": {
-		"C": { "type": "item", "code": "ceramos:ceramatile-*-dull", "name": "type", "quantity": 5, "allowedVariants": ["parsley", "stamens", "petal", "cyanstars", "curles", "triangles",
-		"crosslines", "colorful", "flower", "junglevines"] },
-		"M": { "type": "item", "code": "ceramos:bonemealglue", "quantity": 2 },
+		"C": { "type": "item", "code": "ceramos:ceramatile-*-dull", "name": "type", "quantity": 5 },
+		"M": { "type": "item", "code": "ceramos:bonemealglue", "quantity": 1 },
 		"S": { "type": "item", 
 				"code": "ceramos:spatula-*", "isTool": true, "toolDurabilityCost": 3, 
 				"name": "wood", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
-        "P": { "type": "block", "code": "game:hardenedclay-fire", "quantity": 5 }        
+        "P": { "type": "block", "code": "game:plaster-plain", "quantity": 5 }        
 	},
 	"width": 2,
 	"height": 3,
 	"output": { "type": "block", "code": "ceramos:ceramawall-{type}-east", "quantity": 5 }
 	}
+	
 ]

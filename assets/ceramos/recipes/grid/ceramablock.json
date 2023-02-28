@@ -3,7 +3,7 @@
 	"ingredientPattern": "_G,_U,_S",
 	"ingredients": {
 		"U": { "type": "item", "code": "ceramos:ceramatile-*-dull", "name": "type", "quantity": 6 },
-		"G": { "type": "item", "code": "ceramos:bonemealglue", "quantity": 2 },
+		"G": { "type": "item", "code": "ceramos:bonemealglue", "quantity": 1 },
 		"S": { "type": "item", 
 				"code": "ceramos:spatula-*", "isTool": true, "toolDurabilityCost": 3, 
 				"name": "wood", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }      
@@ -12,4 +12,5 @@
 	"height": 3,
 	"output": { "type": "block", "code": "ceramos:ceramablock-{type}", "quantity": 1 }
 	}
+	
 ]

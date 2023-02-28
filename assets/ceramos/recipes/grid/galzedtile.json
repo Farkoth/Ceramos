@@ -1,0 +1,165 @@
+[
+	{"ingredientPattern": "KRG,YCB,WEO",
+		"ingredients": {
+		"K": { "type": "item", 
+				"code": "ceramos:brush-*", "isTool": true, "toolDurabilityCost": 4, 
+				"name": "wood", "allowedVariants": ["birch", "oak", "maple", "pine"] },
+		"R": { "type": "item", "code": "ceramos:leadglazepaste-red", "quantity": 1 },
+		"G": { "type": "item", "code": "ceramos:leadglazepaste-green", "quantity": 1 },
+		"Y": { "type": "item", "code": "ceramos:leadglazepaste-yellow", "quantity": 1 },
+		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
+		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 1 },
+		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 1 },
+		"E": { "type": "item", "code": "ceramos:leadglazepaste-gray", "quantity": 1 },
+		"O": { "type": "item", "code": "ceramos:leadglazepaste-orange", "quantity": 1 }
+		},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "ceramos:rawglazedtile-colorful", "quantity": 4 }
+	},
+		
+	{"ingredientPattern": "KR_,YCB,WE_",
+		"ingredients": {
+		"K": { "type": "item", 
+				"code": "ceramos:brush-*", "isTool": true, "toolDurabilityCost": 4, 
+				"name": "wood", "allowedVariants": ["birch", "oak", "maple", "pine"] },
+		"R": { "type": "item", "code": "ceramos:leadglazepaste-red", "quantity": 1 },
+		"Y": { "type": "item", "code": "ceramos:leadglazepaste-yellow", "quantity": 1 },
+		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
+		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 1 },
+		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 1 },
+		"E": { "type": "item", "code": "ceramos:leadglazepaste-gray", "quantity": 1 }
+		},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "ceramos:rawglazedtile-triangles", "quantity": 4 }
+	},
+		
+	{"ingredientPattern": "KO,BC,WE",
+		"ingredients": {
+		"K": { "type": "item", 
+				"code": "ceramos:brush-*", "isTool": true, "toolDurabilityCost": 4, 
+				"name": "wood", "allowedVariants": ["birch", "oak", "maple", "pine"] },
+		"O": { "type": "item", "code": "ceramos:leadglazepaste-orange", "quantity": 1 },
+		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 1 },
+		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
+		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 1 },
+		"E": { "type": "item", "code": "ceramos:leadglazepaste-gray", "quantity": 1 }
+		},
+	"width": 2,
+	"height": 3,
+	"output": { "type": "item", "code": "ceramos:rawglazedtile-parsley", "quantity": 4 }
+	},
+		
+	{"ingredientPattern": "KOP,BC_,WG_",
+		"ingredients": {
+		"K": { "type": "item", 
+				"code": "ceramos:brush-*", "isTool": true, "toolDurabilityCost": 4, 
+				"name": "wood", "allowedVariants": ["birch", "oak", "maple", "pine"] },
+		"O": { "type": "item", "code": "ceramos:leadglazepaste-orange", "quantity": 1 },
+		"P": { "type": "item", "code": "ceramos:leadglazepaste-pink", "quantity": 1 },
+		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 1 },
+		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
+		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 1 },
+		"G": { "type": "item", "code": "ceramos:leadglazepaste-green", "quantity": 1 }
+		},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "ceramos:rawglazedtile-cyanstars", "quantity": 4 }
+	},
+		
+	{"ingredientPattern": "KOR,BC_,WG_",
+		"ingredients": {
+		"K": { "type": "item", 
+				"code": "ceramos:brush-*", "isTool": true, "toolDurabilityCost": 4, 
+				"name": "wood", "allowedVariants": ["birch", "oak", "maple", "pine"] },
+		"O": { "type": "item", "code": "ceramos:leadglazepaste-orange", "quantity": 1 },
+		"R": { "type": "item", "code": "ceramos:leadglazepaste-red", "quantity": 1 },
+		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 1 },
+		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
+		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 1 },
+		"G": { "type": "item", "code": "ceramos:leadglazepaste-green", "quantity": 1 }
+		},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "ceramos:rawglazedtile-petal", "quantity": 4 }
+	},
+		
+	{"ingredientPattern": "KB,WC",
+		"ingredients": {
+		"K": { "type": "item", 
+				"code": "ceramos:brush-*", "isTool": true, "toolDurabilityCost": 4, 
+				"name": "wood", "allowedVariants": ["birch", "oak", "maple", "pine"] },
+		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 1 },
+		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
+		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 1 }
+		},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "ceramos:rawglazedtile-crosslines", "quantity": 4 }
+	},
+		
+	{"ingredientPattern": "KXR,BC_,WE_",
+		"ingredients": {
+		"K": { "type": "item", 
+				"code": "ceramos:brush-*", "isTool": true, "toolDurabilityCost": 4, 
+				"name": "wood", "allowedVariants": ["birch", "oak", "maple", "pine"] },
+		"X": { "type": "item", "code": "ceramos:leadglazepaste-black", "quantity": 1 },
+		"R": { "type": "item", "code": "ceramos:leadglazepaste-red", "quantity": 1 },
+		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 1 },
+		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
+		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 1 },
+		"E": { "type": "item", "code": "ceramos:leadglazepaste-gray", "quantity": 1 }
+		},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "ceramos:rawglazedtile-stamens", "quantity": 4 }
+	},
+		
+	{"ingredientPattern": "KYR,BC_,WE_",
+		"ingredients": {
+		"K": { "type": "item", 
+				"code": "ceramos:brush-*", "isTool": true, "toolDurabilityCost": 4, 
+				"name": "wood", "allowedVariants": ["birch", "oak", "maple", "pine"] },
+		"Y": { "type": "item", "code": "ceramos:leadglazepaste-yellow", "quantity": 1 },
+		"R": { "type": "item", "code": "ceramos:leadglazepaste-red", "quantity": 1 },
+		"B": { "type": "item", "code": "ceramos:leadglazepaste-blue", "quantity": 1 },
+		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
+		"W": { "type": "item", "code": "ceramos:leadglazepaste-white", "quantity": 1 },
+		"E": { "type": "item", "code": "ceramos:leadglazepaste-gray", "quantity": 1 }
+		},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "ceramos:rawglazedtile-curles", "quantity": 4 }
+	},
+		
+	{"ingredientPattern": "KY,GC,O_",
+		"ingredients": {
+		"K": { "type": "item", 
+				"code": "ceramos:brush-*", "isTool": true, "toolDurabilityCost": 4, 
+				"name": "wood", "allowedVariants": ["birch", "oak", "maple", "pine"] },
+		"Y": { "type": "item", "code": "ceramos:leadglazepaste-yellow", "quantity": 1 },
+		"G": { "type": "item", "code": "ceramos:leadglazepaste-green", "quantity": 1 },
+		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
+		"O": { "type": "item", "code": "ceramos:leadglazepaste-orange", "quantity": 1 }
+		},
+	"width": 2,
+	"height": 3,
+	"output": { "type": "item", "code": "ceramos:rawglazedtile-junglevines", "quantity": 4 }
+	},
+		
+	{"ingredientPattern": "KG,YC",
+		"ingredients": {
+		"K": { "type": "item", 
+				"code": "ceramos:brush-*", "isTool": true, "toolDurabilityCost": 4, 
+				"name": "wood", "allowedVariants": ["birch", "oak", "maple", "pine"] },
+		"G": { "type": "item", "code": "ceramos:leadglazepaste-green", "quantity": 1 },
+		"C": { "type": "item", "code": "ceramos:basetile-dry", "quantity": 4 },
+		"Y": { "type": "item", "code": "ceramos:leadglazepaste-yellow", "quantity": 1 }
+		},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "ceramos:rawglazedtile-flower", "quantity": 4 }
+	}
+	
+]

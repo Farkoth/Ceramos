@@ -1,16 +1,15 @@
 [
 	{
-	"ingredientPattern": "SWN,_L_",
+	"ingredientPattern": "SN,RL",
 	"ingredients": {
-		"S": { "type": "item", "code": "game:stone-*", "quantity": 1, "name": "material", "allowedVariants": [ "andesite", "granite", "peridotite", "basalt" ] },
-		"W": { "type": "item", "code": "game:stick", "quantity": 1 },
-        "N": { "type": "item", "code": "game:metalnailsandstrips-iron", "quantity": 1 },
+		"R": { "type": "item", "code": "game:stone-*", "quantity": 1, "name": "material", "allowedVariants": [ "andesite", "granite", "basalt", "peridotite" ] },
+		"N": { "type": "item", "code": "game:metalnailsandstrips-iron", "quantity": 1 },
+        "S": { "type": "item", "code": "game:stick", "quantity": 1 },
         "L": { "type": "item", "code": "game:leather-plain", "quantity": 1 }
-
 	},
-	"width": 3,
+	"width": 2,
 	"height": 2,
-	"name": "Polisher",
+	"name": "Spatula",
 	"output": { "type": "item", "code": "ceramos:polisher-{material}", "quantity": 1 }
 	}
 

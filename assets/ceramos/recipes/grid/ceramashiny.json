@@ -1,0 +1,54 @@
+[
+	{
+	"ingredientPattern": "_P,_S,_C",
+	"ingredients": {
+		"C": { "type": "item", "code": "ceramos:ceramatile-*-dull", "name": "type", "quantity": 1 },
+		"S": { "type": "item", "code": "ceramos:bonemealglue", "quantity": 1 },
+		"P": { "type": "item", 
+                "code": "ceramos:polisher-andesite", "isTool": true, "toolDurabilityCost": 3 }      
+	},
+	"width": 2,
+	"height": 3,
+	"output": { "type": "item", "code": "ceramos:ceramatile-{type}-shiny", "quantity": 1 }
+	},
+
+    {
+	"ingredientPattern": "_P,_S,_C",
+	"ingredients": {
+		"C": { "type": "item", "code": "ceramos:ceramatile-*-dull", "name": "type", "quantity": 1 },
+		"S": { "type": "item", "code": "ceramos:bonemealglue", "quantity": 1 },
+		"P": { "type": "item", 
+				"code": "ceramos:polisher-granite", "isTool": true, "toolDurabilityCost": 3 }      
+	},
+	"width": 2,
+	"height": 3,
+	"output": { "type": "item", "code": "ceramos:ceramatile-{type}-shiny", "quantity": 1 }
+	},
+
+    {
+	"ingredientPattern": "_P,_S,_C",
+	"ingredients": {
+		"C": { "type": "item", "code": "ceramos:ceramatile-*-dull", "name": "type", "quantity": 1 },
+		"S": { "type": "item", "code": "ceramos:bonemealglue", "quantity": 1 },
+		"P": { "type": "item", 
+                "code": "ceramos:polisher-basalt", "isTool": true, "toolDurabilityCost": 3 }    
+	},
+	"width": 2,
+	"height": 3,
+	"output": { "type": "item", "code": "ceramos:ceramatile-{type}-shiny", "quantity": 1 }
+	},
+
+    {
+	"ingredientPattern": "_P,_S,_C",
+	"ingredients": {
+		"C": { "type": "item", "code": "ceramos:ceramatile-*-dull", "name": "type", "quantity": 1 },
+		"S": { "type": "item", "code": "ceramos:bonemealglue", "quantity": 1 },
+		"P": { "type": "item", 
+				"code": "ceramos:polisher-peridotite", "isTool": true, "toolDurabilityCost": 3 }    
+	},
+	"width": 2,
+	"height": 3,
+	"output": { "type": "item", "code": "ceramos:ceramatile-{type}-shiny", "quantity": 1 }
+	}
+	
+]
