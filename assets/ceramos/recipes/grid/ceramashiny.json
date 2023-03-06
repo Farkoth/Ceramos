@@ -1,54 +1,73 @@
 [
 	{
-	"ingredientPattern": "_P,_S,_C",
+	"ingredientPattern": "P,B,C",
 	"ingredients": {
 		"C": { "type": "item", "code": "ceramos:ceramatile-*-dull", "name": "type", "quantity": 1 },
-		"S": { "type": "item", "code": "ceramos:bonemealglue", "quantity": 1 },
+		"B": { "type": "block", "code": "game:woodbucket" },
 		"P": { "type": "item", 
                 "code": "ceramos:polisher-andesite", "isTool": true, "toolDurabilityCost": 3 }      
 	},
-	"width": 2,
+	"width": 1,
 	"height": 3,
-	"output": { "type": "item", "code": "ceramos:ceramatile-{type}-shiny", "quantity": 1 }
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "ceramos:olivineabrasive" },
+			"requiresLitres": 0.2 }
+		},
+	"output": { "type": "item", "code": "ceramos:ceramatile-{type}-shiny", "quantity": 5 }
 	},
 
-    {
-	"ingredientPattern": "_P,_S,_C",
+	{
+	"ingredientPattern": "P,B,C",
 	"ingredients": {
 		"C": { "type": "item", "code": "ceramos:ceramatile-*-dull", "name": "type", "quantity": 1 },
-		"S": { "type": "item", "code": "ceramos:bonemealglue", "quantity": 1 },
+		"B": { "type": "block", "code": "game:woodbucket" },
 		"P": { "type": "item", 
-				"code": "ceramos:polisher-granite", "isTool": true, "toolDurabilityCost": 3 }      
+                "code": "ceramos:polisher-granite", "isTool": true, "toolDurabilityCost": 3 }      
 	},
-	"width": 2,
+	"width": 1,
 	"height": 3,
-	"output": { "type": "item", "code": "ceramos:ceramatile-{type}-shiny", "quantity": 1 }
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "ceramos:olivineabrasive" },
+			"requiresLitres": 0.2 }
+		},
+	"output": { "type": "item", "code": "ceramos:ceramatile-{type}-shiny", "quantity": 5 }
 	},
-
-    {
-	"ingredientPattern": "_P,_S,_C",
-	"ingredients": {
-		"C": { "type": "item", "code": "ceramos:ceramatile-*-dull", "name": "type", "quantity": 1 },
-		"S": { "type": "item", "code": "ceramos:bonemealglue", "quantity": 1 },
-		"P": { "type": "item", 
-                "code": "ceramos:polisher-basalt", "isTool": true, "toolDurabilityCost": 3 }    
-	},
-	"width": 2,
-	"height": 3,
-	"output": { "type": "item", "code": "ceramos:ceramatile-{type}-shiny", "quantity": 1 }
-	},
-
-    {
-	"ingredientPattern": "_P,_S,_C",
-	"ingredients": {
-		"C": { "type": "item", "code": "ceramos:ceramatile-*-dull", "name": "type", "quantity": 1 },
-		"S": { "type": "item", "code": "ceramos:bonemealglue", "quantity": 1 },
-		"P": { "type": "item", 
-				"code": "ceramos:polisher-peridotite", "isTool": true, "toolDurabilityCost": 3 }    
-	},
-	"width": 2,
-	"height": 3,
-	"output": { "type": "item", "code": "ceramos:ceramatile-{type}-shiny", "quantity": 1 }
-	}
 	
+	{
+	"ingredientPattern": "P,B,C",
+	"ingredients": {
+		"C": { "type": "item", "code": "ceramos:ceramatile-*-dull", "name": "type", "quantity": 1 },
+		"B": { "type": "block", "code": "game:woodbucket" },
+		"P": { "type": "item", 
+                "code": "ceramos:polisher-basalt", "isTool": true, "toolDurabilityCost": 3 }      
+	},
+	"width": 1,
+	"height": 3,
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "ceramos:olivineabrasive" },
+			"requiresLitres": 0.2 }
+		},
+	"output": { "type": "item", "code": "ceramos:ceramatile-{type}-shiny", "quantity": 5 }
+	},
+	
+	{
+	"ingredientPattern": "P,B,C",
+	"ingredients": {
+		"C": { "type": "item", "code": "ceramos:ceramatile-*-dull", "name": "type", "quantity": 1 },
+		"B": { "type": "block", "code": "game:woodbucket" },
+		"P": { "type": "item", 
+                "code": "ceramos:polisher-peridotite", "isTool": true, "toolDurabilityCost": 3 }      
+	},
+	"width": 1,
+	"height": 3,
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "ceramos:olivineabrasive" },
+			"requiresLitres": 0.2 }
+		},
+	"output": { "type": "item", "code": "ceramos:ceramatile-{type}-shiny", "quantity": 5 }
+	}
 ]

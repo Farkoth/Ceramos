@@ -4,7 +4,7 @@
 	"ceramos-guide":								"Ceramos guide",
 	"ceramos-guide-title":							"Ceramos Guide",
 	"ceramos-guide-text":							"<strong>Ceramos Guide</strong><br><br>This manual will help you to learn how to create you own Cerama tiles, color them and apply to walls or floor.<br><br>Preparing Cerama consists 4 main steps.<br><br>1. Clayforming<br>You need to get <a href=\"handbook://item-clay-fire\">fire clay</a> to make a <a href=\"handbook://item-ceramos:basetile-raw\">raw cerama base tile</a>, than just wait till it will be dryed and get <a href=\"handbook://item-ceramos:basetile-dry\">dry cerama base tile</a>. <br><br>2. Glazemaking<br><br>",
-	
+
 	
 	"ceramos:block-ceramawall-colorful-east*": 				"Colorful cerama wall",
 	"ceramos:block-ceramawall-crosslines-east*": 			"Crosslines cerama wall",
@@ -137,13 +137,17 @@
 	
 	"ceramos:item-mix-bonemeal*":					"Bonemeal slurry",
 	"ceramos:item-mix-base*":						"Adhesive base",
+	"ceramos:item-olivineabrasive*":						"Olivine abrasive",
 	
 	"ceramos:incontainer-item-mix-bonemeal":		"Bonemeal slurry",
 	"ceramos:incontainer-item-mix-base":			"Adhesive base",
+	"ceramos:incontainer-item-olivineabrasive":			"Olivine abrasive",
+
 
 	"game:incontainer-item-mix-bonemeal":			"Bonemeal slurry",
 	"game:incontainer-item-mix-base":				"Adhesive base",
 	"game:incontainer-item-mix-glue":				"Bonemeal glue",
+	"game:incontainer-item-olivineabrasive":				"Olivine abrasive",
 	
 	"ceramos:item-leadfrit-cooked*":				"Cooked lead frit",
 	"ceramos:item-leadfrit-blend*":					"Lead frit blend",
