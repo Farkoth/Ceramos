@@ -21,9 +21,9 @@
     "code": "glue",
     "sealHours": 12,
     "ingredients": [
-        { "type": "item", "code": "ceramos:mix-base", "litres": 1 },
+        { "type": "item", "code": "ceramos:mix-base", "litres": 2 },
         { "type": "item", "code": "game:resin", "quantity": 1 }
     ],
-    "output": { "type": "item", "code": "ceramos:bonemealglue", "quantity": 1 }
+    "output": { "type": "item", "code": "ceramos:bonemealglue", "quantity": 2 }
     }
 ]
