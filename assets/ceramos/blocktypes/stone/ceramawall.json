@@ -27,20 +27,20 @@
 	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
 	"texturesByType": {
 		"*-north": { 
-			"all": { "base": "game:block/clay/hardened/fire*" },
+			"all": { "base": "game:block/stone/plaster/plain" },
 			"south": { "base": "ceramos:block/cerama/dull/{type}*" }
 		},
 		"*-east": { 
-			"all": { "base": "game:block/clay/hardened/fire*" },
+			"all": { "base": "game:block/stone/plaster/plain" },
 			"west": { "base": "ceramos:block/cerama/dull/{type}*" }
 
 		},
 		"*-south": { 
-			"all": { "base": "game:block/clay/hardened/fire*" },
+			"all": { "base": "game:block/stone/plaster/plain" },
 			"north": { "base": "ceramos:block/cerama/dull/{type}*" }
 		},
 		"*-west": {
-			"all": { "base": "game:block/clay/hardened/fire*" },
+			"all": { "base": "game:block/stone/plaster/plain" },
 			"east": { "base": "ceramos:block/cerama/dull/{type}*" }
 		}
 			
