@@ -2,16 +2,16 @@
 	{
 	"ingredientPattern": "C_,MS,P_",
 	"ingredients": {
-		"C": { "type": "item", "code": "ceramos:ceramatile-*-dull", "name": "type", "quantity": 5 },
+		"C": { "type": "item", "code": "ceramos:ceramatile-*-dull", "name": "type", "quantity": 1 },
 		"M": { "type": "item", "code": "ceramos:bonemealglue", "quantity": 1 },
 		"S": { "type": "item", 
 				"code": "ceramos:spatula-*", "isTool": true, "toolDurabilityCost": 3, 
 				"name": "wood", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
-        "P": { "type": "block", "code": "game:plaster-plain", "quantity": 5 }        
+        "P": { "type": "block", "code": "game:plaster-plain", "quantity": 1 }        
 	},
 	"width": 2,
 	"height": 3,
-	"output": { "type": "block", "code": "ceramos:ceramawall-{type}-east", "quantity": 5 }
+	"output": { "type": "block", "code": "ceramos:ceramawall-{type}-east", "quantity": 1 }
 	}
 	
 ]
