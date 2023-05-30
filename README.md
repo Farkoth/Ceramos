@@ -33,5 +33,5 @@ What is already in mod:
 - [x] More tools,
 - [ ] Bricklayers compatibilty (Currently unavailable),
 - [x] Building blocks - maybe like bricks with mosaic,
-- [x] 2 new types of Cerama are WIP,
+- [ ] 2 new types of Cerama,
 - [ ] And more, what i even cant imagine right now.
