@@ -14,8 +14,9 @@
 What is already in mod:
 
 - 10 types of ceramic tiles called - Cerama,
-- Tools - brushes and spatulas,
-- Clayforming (temporarily disabled), barrel, grinding, powdering resources to get in final Cerama tile,
+- Now SHINY Cerama is available
+- Tools:brushes, spatulas and polishers,
+- Clayforming, barrel, grinding, powdering resources to get in final Cerama tile,
 - Drying system as a step of producing,
 - Ability to buy Prepared Cerama from traders,
 - Removing Cerama have a chance to get tile back.
@@ -25,11 +26,12 @@ What is already in mod:
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Patterns and painting mechanics,
+- [ ] Patterns and painting mechanics (maybe),
 - [x] Amphoraes for your alcohol (available only in Creative),
 - [ ] Mosaic tiles from broken Cerama parts,
 - [x] Improved recipes,
-- [ ] More tools,
-- [x] Bricklayers compatibilty (added first step of Compat),
+- [x] More tools,
+- [ ] Bricklayers compatibilty (Currently unavailable),
 - [x] Building blocks - maybe like bricks with mosaic,
+- [x] 2 new types of Cerama are WIP,
 - [ ] And more, what i even cant imagine right now.
