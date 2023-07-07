@@ -7,5 +7,14 @@
         { "type": "item", "code": "ceramos:leadfrit-powder", "quantity": 2 }
     ],
     "output": { "type": "item", "code": "ceramos:coloredleadfrit-{color}", "quantity": 2 }
+    },
+    {
+    "code": "leadfrit-woad-blue",
+    "sealHours": 48,
+    "ingredients": [
+        { "type": "item", "code": "game:dye-woad", "name": "color", "litres": 1 },
+        { "type": "item", "code": "ceramos:leadfrit-powder", "quantity": 2 }
+    ],
+        "output": { "type": "item", "code": "ceramos:coloredleadfrit-blue", "quantity": 2 }
     }
 ]       
