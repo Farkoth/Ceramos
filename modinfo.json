@@ -5,6 +5,7 @@
 	"authors": [ "Farkoth" ],
 	"description": "Make your residence looks like Roman Villa!",
 	"version": "0.4.0",
+	"type": "content",
 	"dependency": {
 		"game": "1.18.2"
 	}

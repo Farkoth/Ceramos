@@ -1,6 +1,0 @@
-v0.4.0
-
-Changes:
-- added recipe to get Blue leadfrit from woad blue dye;
-- completly removed (temporarily) Brick Layers compatibylity
-- added full guide update

@@ -1,0 +1,42 @@
+{
+	"code": "clothes",
+	"class": "ItemWearable",
+	"variantgroups": [
+		{ "code": "category",  "states": ["shoulder"] },		
+		{ "code": "shoulder", "combine": "SelectiveMultiply", "onVariant": "category", "states": ["master-apron"] }
+	],
+	"shape": { "base": "game:entity/humanoid/seraph" },
+	"storageFlags": 128,
+	"attributes": {
+		"clothescategory": "shoulder",
+		"warmth": {	"*-clockmaker-apron": 0.5 }
+	},
+	"textures": {
+		"seraph": { "base": "ceramos:entity/humanoid/seraphclothes/{category}/{shoulder}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"] },
+	"renderAlphaTest": 0.25,
+	"fpHandTransform": {
+		"translation": { x: -0.15, y: -0.8, z: 0.3 },
+		"rotation": { x: 180, y: 150, z: 180 },
+		"scale": 2
+	},
+	"tpHandTransform": {
+			"translation": { x: -0.6, y: -1.4, z: -0.85 },
+			"rotation": { x: -87, y: -96, z: 91 },
+			"scale": 0.72
+    },	
+	"guiTransformB": {
+			"rotate": false,
+			"translation": { x: 2, y: 0, z: 17 },
+			"rotation": { x: -178, y: -65, z: 10 },
+			"origin": { x: 0.5, y: 1.4, z: 0.5 },
+			"scale": 2.2
+	},
+	"groundTransform": {
+		"translation": { x: 0.05, y: 0.1, z: 0 },
+		"rotation": { x: 0, y: 0, z: -87 },
+		"origin": { x: 0.5, y: 0.5, z: 0.5299 },
+		"scale": 2.19
+	}
+}
