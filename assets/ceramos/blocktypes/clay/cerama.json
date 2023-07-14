@@ -21,7 +21,7 @@
 		{ "code": "type", 
 				"states": 
 				["parsley", "stamens", "petal", "cyanstars", "curles", "triangles",
-				"crosslines", "colorful", "flower", "junglevines"] },
+				"crosslines", "colorful", "flower", "junglevines","tulip1", "tulip2" ] },
 				{ "code": "surface", "states": ["shiny", "dull"] },
 		{ "code": "side", "states": [ "north", "east", "south", "west", "up", "down"] }
 	],
