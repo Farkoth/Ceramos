@@ -1,7 +1,10 @@
 {
 	"code": "ceramawall",
 	"class": "Block",
-	"behaviors": [ {"name": "HorizontalOrientable", "properties": {  "dropBlockFace": "east" } }],
+	"behaviors": [
+		{"name": "HorizontalOrientable", "properties": {  "dropBlockFace": "east" } },
+		{"name": "WrenchOrientable", "properties": { "baseCode": "ceramawall-{type}" }}
+	],
 	
 	"variantgroups": [
 		{"code": "type", 

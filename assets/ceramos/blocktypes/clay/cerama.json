@@ -1,15 +1,7 @@
 {
 	"code": "cerama",
 	"behaviors": [ 
-		{
-		"name": "Decor", 
-		"properties":
-			{
-			"sides": [ "north", "east", "south", "west", "up" ],
-			"sidedVariants": true,
-			"thickness": 0.003
-			}
-		}
+		{"name": "Decor", "properties":	{"sides": [ "north", "east", "south", "west", "up" ], "sidedVariants": true, "thickness": 0.003 }}
 	],
 
 	"attributes": 
