@@ -1,0 +1,10 @@
+v0.4.0
+
+- added recipe to get Blue leadfrit from woad blue dye;
+- completly removed (temporarily) Brick Layers compatibylity;
+- added full guide update.
+
+v0.4.1
+
+- fixed issue of errors with Build material trader;
+- added new type of Cerama: 

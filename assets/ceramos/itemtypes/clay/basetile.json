@@ -30,7 +30,7 @@
 	"shape": { "base": "ceramos:block/clay/basetile" },
 	"maxstacksize": 12,
 	"blockmaterial": "Ceramic",
-	"creativeinventory": { "general": ["*"], "decorative": ["*"], "ceramos": ["*"] },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "ceramos": ["*"] },
 	"replaceable": 700,
 	"resistance": 1,
 	"emitSideAo": { "all": false },

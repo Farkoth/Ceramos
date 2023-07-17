@@ -27,13 +27,13 @@
 		{ "code": "type",
 		"states":
 				["parsley", "stamens", "petal", "cyanstars", "curles", "triangles",
-				"crosslines", "colorful", "flower", "junglevines"] }
+				"crosslines", "colorful", "flower", "junglevines", "tulip1", "tulip2"] }
 	],
 
 	"shape": { "base": "ceramos:block/clay/ceramatile" },
 	"maxstacksize": 12,
 	"blockmaterial": "Ceramic",
-	"creativeinventory": { "general": ["*"], "decorative": ["*"], "ceramos": ["*"] },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "ceramos": ["*"] },
 	"replaceable": 700,
 	"resistance": 1,
 	"emitSideAo": { "all": false },

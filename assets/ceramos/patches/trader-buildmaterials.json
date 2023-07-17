@@ -4,7 +4,7 @@
     	"path": "/attributes/tradeProps/selling/list/-",
     	"value": [
 			{
-			"code": "ceramos:ceramatile-petal",
+			"code": "ceramos:ceramatile-petal-dull",
 			"type": "item",
 			"stacksize": 12,
 			"stock": { "avg": 8, "var": 0.25 },
@@ -12,7 +12,7 @@
 			},
 
 			{
-			"code": "ceramos:ceramatile-stamens",
+			"code": "ceramos:ceramatile-stamens-dull",
 			"type": "item",
 			"stacksize": 12,
 			"stock": { "avg": 8, "var": 0.25 },
@@ -20,7 +20,7 @@
 			},
 
 			{
-			"code": "ceramos:ceramatile-cyanstars",
+			"code": "ceramos:ceramatile-cyanstars-dull",
 			"type": "item",
 			"stacksize": 12,
 			"stock": { "avg": 8, "var": 0.25 },
@@ -28,7 +28,7 @@
 			},
 
 			{
-			"code": "ceramos:ceramatile-parsley",
+			"code": "ceramos:ceramatile-parsley-dull",
 			"type": "item",
 			"stacksize": 12,
 			"stock": { "avg": 8, "var": 0.25 },
