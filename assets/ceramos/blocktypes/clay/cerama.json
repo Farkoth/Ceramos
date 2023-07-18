@@ -70,11 +70,11 @@
 	"emitSideAo": { "all": false },
 	"texturesByType": {
 		"*dull-*": {
-			"up": { "base": "ceramos:block/cerama/dull/{type}", "rotateY": 180 },
+			"up": { "base": "ceramos:block/cerama/dull/{type}" },
 			"all": { "base": "ceramos:block/clay/burned" }
 		},
 		"*shiny-*": {
-			"up": { "base": "ceramos:block/cerama/shiny/{type}", "rotateY": 180 },
+			"up": { "base": "ceramos:block/cerama/shiny/{type}" },
 			"all": { "base": "ceramos:block/clay/burned" }
 		}
 	},
