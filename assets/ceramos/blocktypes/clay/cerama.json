@@ -1,7 +1,15 @@
 {
 	"code": "cerama",
-	"behaviors": [ 
-		{"name": "Decor", "properties":	{"sides": [ "north", "east", "south", "west", "up" ], "sidedVariants": true, "thickness": 0.003 }}
+	"behaviors": [
+		{
+		"name": "Decor", 
+			"propertiesByType":	{
+				"*tulip*":{
+				"sides": [ "north", "east", "south", "west" ], "sidedVariants": true, "thickness": 0.003 
+				},
+				"*":{
+					"sides": [ "north", "east", "south", "west", "up" ], "sidedVariants": true, "thickness": 0.003 }}
+				}
 	],
 
 	"attributes": 
@@ -13,9 +21,11 @@
 		{ "code": "type", 
 				"states": 
 				["parsley", "stamens", "petal", "cyanstars", "curles", "triangles",
-				"crosslines", "colorful", "flower", "junglevines","tulip1", "tulip2" ] },
-				{ "code": "surface", "states": ["shiny", "dull"] },
-		{ "code": "side", "states": [ "north", "east", "south", "west", "up", "down"] }
+				"crosslines", "colorful", "flower", "junglevines","tulip1", "tulip2"] },
+		{ "code": "surface",
+				"states": ["shiny", "dull"] },
+		{ "code": "side", 
+				"states": ["north", "east", "south", "west", "up", "down"] }
 	],
 
 	"shapeByType": {
