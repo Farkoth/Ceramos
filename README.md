@@ -21,7 +21,7 @@ What is already in mod:
 - Ability to buy Prepared Cerama from traders,
 - Removing Cerama have a chance to get tile back.
 
-![image](https://mods.vintagestory.at/files/asset/3777/Ceramos%20Logo.png)
+![image](https://mods.vintagestory.at/files/asset/3777/Ceramos.png)
 
 <!-- ROADMAP -->
 ## Roadmap
