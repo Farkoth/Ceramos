@@ -11,5 +11,7 @@ v0.4.1
 
 v0.5.0
 
--added abiltyt to rotate Cerama wall by wrench
+-added abilty to rotate Cerama wall by wrench
 -added new Cerama tiles - panels
+-Ceramos guide improvements
+-ceramawall gui positioning fix (wip)
