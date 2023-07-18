@@ -31,16 +31,16 @@
 	"shapeByType": {
 		"*dull-down": { "base": "ceramos:block/clay/cerama" },
 		"*dull-up": { "base": "ceramos:block/clay/cerama", "rotateX": 180 }, 
-		"*dull-north": { "base": "ceramos:block/clay/cerama", "rotateX": 90 },
+		"*dull-north": { "base": "ceramos:block/clay/cerama", "rotateX": 90, "rotateY": 180 },
 		"*dull-east": { "base": "ceramos:block/clay/cerama", "rotateX": 90, "rotateY": 180, "rotateZ": 270 },
-		"*dull-west": { "base": "ceramos:block/clay/cerama", "rotateX": 90, "rotateY": 0, "rotateZ": 270 },
+		"*dull-west": { "base": "ceramos:block/clay/cerama", "rotateX": 270, "rotateY": 0, "rotateZ": 270 },
 		"*dull-south": { "base": "ceramos:block/clay/cerama", "rotateX": 270 },
 
 		"*shiny-down": { "base": "ceramos:block/clay/ceramashiny" },
 		"*shiny-up": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 180 }, 
-		"*shiny-north": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 90 },
+		"*shiny-north": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 90, "rotateY": 180 },
 		"*shiny-east": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 90, "rotateY": 180, "rotateZ": 270 },
-		"*shiny-west": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 90, "rotateY": 0, "rotateZ": 270 },
+		"*shiny-west": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 270, "rotateY": 0, "rotateZ": 270 },
 		"*shiny-south": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 270 }
 	},
 
