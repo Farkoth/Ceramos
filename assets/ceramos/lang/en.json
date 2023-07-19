@@ -18,6 +18,8 @@
 	"ceramos:block-ceramawall-curles-east*": 				"Curles cerama wall",
 	"ceramos:block-ceramawall-junglevines-east*": 			"Jungle vines cerama wall",
 	"ceramos:block-ceramawall-stamens-east*": 				"Stamens cerama wall",
+	"ceramos:block-ceramawall-tulipleft-east*": 			"Left Tulip cerama wall",
+	"ceramos:block-ceramawall-tulipright-east*": 			"Right Tulip cerama wall",
 
 	"ceramos:block-ceramablock-colorful": 					"Colorful cerama block",
 	"ceramos:block-ceramablock-crosslines": 				"Crosslines cerama block",
@@ -86,6 +88,8 @@
 	"ceramos:block-cerama-curles-dull*": 					"Dull Curles cerama",
 	"ceramos:block-cerama-junglevines-dull*": 				"Dull Jungle vines cerama",
 	"ceramos:block-cerama-stamens-dull*": 					"Dull Stamens cerama",
+	"ceramos:block-cerama-tulipleft-dull*": 				"Dull left Tulip panel",
+	"ceramos:block-cerama-tulipright-dull*": 				"Dull right Tulip panel",
 	"ceramos:block-cerama-colorful-shiny*": 				"Shiny Colorful cerama",
 	"ceramos:block-cerama-crosslines-shiny*": 				"Shiny Crosslines cerama",
 	"ceramos:block-cerama-parsley-shiny*": 					"Shiny Parsley cerama",
@@ -96,6 +100,8 @@
 	"ceramos:block-cerama-curles-shiny*": 					"Shiny Curles cerama",
 	"ceramos:block-cerama-junglevines-shiny*": 				"Shiny Jungle vines cerama",
 	"ceramos:block-cerama-stamens-shiny*": 					"Shiny Stamens cerama",
+	"ceramos:block-cerama-tulipleft-shiny*": 				"Shiny left Tulip panel",
+	"ceramos:block-cerama-tulipright-shiny*": 				"Shiny right Tulip panel",
 	
 	"ceramos:blockdesc-cerama-*":							"With glue at the backside! Ready to attach",
 	
@@ -109,6 +115,8 @@
 	"ceramos:item-ceramatile-curles-dull*": 				"Prepared dull Curles cerama",
 	"ceramos:item-ceramatile-junglevines-dull*": 			"Prepared dull Jungle vines cerama",
 	"ceramos:item-ceramatile-stamens-dull*": 				"Prepared dull Stamens cerama",
+	"ceramos:item-ceramatile-tulipleft-dull*": 				"Prepared dull left Tulip panel",
+	"ceramos:item-ceramatile-tulipright-dull*": 			"Prepared dull right Tulip panel",
 	"ceramos:item-ceramatile-colorful-shiny*": 				"Prepared shiny Colorful cerama",
 	"ceramos:item-ceramatile-crosslines-shiny*": 			"Prepared shiny Crosslines cerama",
 	"ceramos:item-ceramatile-parsley-shiny*": 				"Prepared shiny Parsley cerama",
@@ -119,7 +127,9 @@
 	"ceramos:item-ceramatile-curles-shiny*": 				"Prepared shiny Curles cerama",
 	"ceramos:item-ceramatile-junglevines-shiny*": 			"Prepared shiny Jungle vines cerama",
 	"ceramos:item-ceramatile-stamens-shiny*": 				"Prepared shiny Stamens cerama",
-	
+	"ceramos:item-ceramatile-tulipleft-shiny*": 			"Prepared shiny left Tulip panel",
+	"ceramos:item-ceramatile-tulipright-shiny*": 			"Prepared shiny right Tulip panel",
+
 	"ceramos:itemdesc-ceramatile-*":				"Fired and prepared to attach with glue",
 	
 	"ceramos:item-rawglazedtile-colorful*": 		"Raw glazed Colorful cerama",
@@ -132,6 +142,8 @@
 	"ceramos:item-rawglazedtile-curles*": 			"Raw glazed Curles cerama",
 	"ceramos:item-rawglazedtile-junglevines*": 		"Raw glazed Jungle vines cerama",
 	"ceramos:item-rawglazedtile-stamens*": 			"Raw glazed Stamens cerama",
+	"ceramos:item-rawglazedtile-tulipleft*": 		"Raw glazed left Tulip panel",
+	"ceramos:item-rawglazedtile-tulipright*": 		"Raw glazed right Tulip panel",
 
 	"ceramos:itemdesc-rawglazedtile-*":				"Material: Ceramic",
 
@@ -239,7 +251,9 @@
 	
 	"ceramos:incontainer-item-claycream":			"Clay cream",
 	"game:incontainer-item-claycream":				"Clay cream",
-	"ceramos:item-claycream":						"Clay cream"
+	"ceramos:item-claycream":						"Clay cream",
+
+	"ceramos:item-clothes-shoulder-ceramist-apron*":	"Ceramist apron"
 	
 	
 	

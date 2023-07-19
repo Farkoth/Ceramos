@@ -16,6 +16,8 @@
 	"ceramos:block-ceramawall-curles-east*": 			"Стена с керамой Завитки",
 	"ceramos:block-ceramawall-junglevines-east*": 		"Стена с керамой Лозы джунглей",
 	"ceramos:block-ceramawall-stamens-east*": 			"Стена с керамой Тычинки",
+	"ceramos:block-ceramawall-tulipleft-east*": 		"Левая стена с панелью Тюльпан",
+	"ceramos:block-ceramawall-tulipright-east*": 		"Правая стена с панелью Тюльпан",
 	
 	"ceramos:block-ceramablock-colorful": 					"Блок красочной керамы",
 	"ceramos:block-ceramablock-crosslines": 				"Блок поперечной керамы",
@@ -82,6 +84,8 @@
 	"ceramos:block-cerama-curles*": 						"Керама Завитки",
 	"ceramos:block-cerama-junglevines*": 					"Керама Лозы джунглей",
 	"ceramos:block-cerama-stamens*": 						"Керама Тычинки",
+	"ceramos:block-cerama-tulipleft-dull*": 				"Левая панель Тюльпан",
+	"ceramos:block-cerama-tulipright-dull*": 				"Пправая панель Тюльпан",
 	"ceramos:block-cerama-colorful-shiny*": 				"Блестящая Красочная керама",
 	"ceramos:block-cerama-crosslines-shiny*": 				"Блестящая Поперечная керама",
 	"ceramos:block-cerama-parsley-shiny*": 					"Блестящая керама Петрушка",
@@ -92,6 +96,8 @@
 	"ceramos:block-cerama-curles-shiny*": 					"Блестящая керама Завитки",
 	"ceramos:block-cerama-junglevines-shiny*": 				"Блестящая керама Лозы джунглей",
 	"ceramos:block-cerama-stamens-shiny*": 					"Блестящая керама Тычинки",
+	"ceramos:block-cerama-tulipleft-shiny*": 				"Блестящая левая панель Тюльпан",
+	"ceramos:block-cerama-tulipright-shiny*": 				"Блестящая правая панель Тюльпан",
 	
 	"ceramos:blockdesc-cerama-*":					"Тыльная сторона в клею! Готова к укладке.",
 	
@@ -105,6 +111,8 @@
 	"ceramos:item-ceramatile-curles-dull*": 				"Подготовленная керама Завитки",
 	"ceramos:item-ceramatile-junglevines*-dull": 		"Подготовленная керама Лозы джунглей",
 	"ceramos:item-ceramatile-stamens-dull*": 			"Подготовленная керама Тычинки",
+	"ceramos:item-ceramatile-tulipleft-dull*": 			"Подготовленная левая панель Тюльпан",
+	"ceramos:item-ceramatile-tulipright-dull*": 			"Подготовленная правая панель Тюльпан",
 	"ceramos:item-ceramatile-colorful-shiny*": 			"Подготовленная блестящая Красочная керама",
 	"ceramos:item-ceramatile-crosslines-shiny*": 			"Подготовленная блестящая Поперечная керама",
 	"ceramos:item-ceramatile-parsley-shiny*": 			"Подготовленная блестящая керама Петрушка",
@@ -115,6 +123,8 @@
 	"ceramos:item-ceramatile-curles-shiny*": 				"Подготовленная блестящая керама Завитки",
 	"ceramos:item-ceramatile-junglevines-shiny*": 		"Подготовленная блестящая керама Лозы джунглей",
 	"ceramos:item-ceramatile-stamens-shiny*": 			"Подготовленная блестящая керама Тычинки",
+	"ceramos:item-ceramatile-tulipleft-shiny*": 			"Подготовленная блестящая левая панель Тюльпан",
+	"ceramos:item-ceramatile-tulipright-shiny*": 			"Подготовленная блестящая правая панель Тюльпан",
 	
 	"ceramos:itemdesc-ceramatile-*":				"Обожжена и готова к укладке",
 	
@@ -128,6 +138,8 @@
 	"ceramos:item-rawglazedtile-curles*": 			"Сырая глазированная керама Завитки",
 	"ceramos:item-rawglazedtile-junglevines*": 		"Сырая глазированная керама Лозы джунглей",
 	"ceramos:item-rawglazedtile-stamens*": 			"Сырая глазированная керама Тычинки",
+	"ceramos:item-rawglazedtile-tulipleft*": 		"Сырая глазированная левая панель Тюльпан",
+	"ceramos:item-rawglazedtile-tulipright*": 		"Сырая глазированная правая панель Тюльпан",
 
 	"ceramos:item-rawglazedtile-*":					"Материал: Керамика",
 	
@@ -235,6 +247,8 @@
 	
 	"ceramos:incontainer-item-claycream":			"Глиняная жижа",
 	"game:incontainer-item-claycream":				"Глиняная жижа",
-	"ceramos:item-claycream":						"Глиняная жижа"
+	"ceramos:item-claycream":						"Глиняная жижа",
+
+	"ceramos:item-clothes-shoulder-ceramist-apron*":	"Ceramist apron"
 	
 }

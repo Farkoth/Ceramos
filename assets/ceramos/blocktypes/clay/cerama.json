@@ -21,7 +21,7 @@
 		{ "code": "type", 
 				"states": 
 				["parsley", "stamens", "petal", "cyanstars", "curles", "triangles",
-				"crosslines", "colorful", "flower", "junglevines","tulip1", "tulip2"] },
+				"crosslines", "colorful", "flower", "junglevines","tulipleft", "tulipright"] },
 		{ "code": "surface",
 				"states": ["shiny", "dull"] },
 		{ "code": "side", 
@@ -30,18 +30,18 @@
 
 	"shapeByType": {
 		"*dull-down": { "base": "ceramos:block/clay/cerama" },
-		"*dull-up": { "base": "ceramos:block/clay/cerama", "rotateX": 180 }, 
-		"*dull-north": { "base": "ceramos:block/clay/cerama", "rotateX": 90, "rotateY": 180 },
-		"*dull-east": { "base": "ceramos:block/clay/cerama", "rotateX": 90, "rotateY": 180, "rotateZ": 270 },
-		"*dull-west": { "base": "ceramos:block/clay/cerama", "rotateX": 270, "rotateY": 0, "rotateZ": 270 },
-		"*dull-south": { "base": "ceramos:block/clay/cerama", "rotateX": 270 },
+		"*dull-up": { "base": "ceramos:block/clay/cerama", "rotateX": 0 }, 
+		"*dull-north": { "base": "ceramos:block/clay/cerama", "rotateX": 90, "rotateY": 0 },
+		"*dull-east": { "base": "ceramos:block/clay/cerama", "rotateX": 270, "rotateY": 180, "rotateZ": 270 },
+		"*dull-west": { "base": "ceramos:block/clay/cerama", "rotateX": 90, "rotateY": 0, "rotateZ": 270 },
+		"*dull-south": { "base": "ceramos:block/clay/cerama", "rotateX": 270, "rotateY": 180 },
 
 		"*shiny-down": { "base": "ceramos:block/clay/ceramashiny" },
-		"*shiny-up": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 180 }, 
-		"*shiny-north": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 90, "rotateY": 180 },
-		"*shiny-east": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 90, "rotateY": 180, "rotateZ": 270 },
-		"*shiny-west": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 270, "rotateY": 0, "rotateZ": 270 },
-		"*shiny-south": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 270 }
+		"*shiny-up": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 0 }, 
+		"*shiny-north": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 90, "rotateY": 0 },
+		"*shiny-east": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 270, "rotateY": 180, "rotateZ": 270 },
+		"*shiny-west": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 90, "rotateY": 0, "rotateZ": 270 },
+		"*shiny-south": { "base": "ceramos:block/clay/ceramashiny", "rotateX": 270, "rotateY": 180 }
 	},
 
 	"sidesolidByType": {
@@ -94,17 +94,17 @@
 	"guiTransformByType": {
 		"*dull-down": {
 			"rotate": false,
-			"translation": { "x": -1, "y": 6, "z": 0 },
-			"rotation": { "x": -38, "y": 0, "z": 0 },
+			"translation": { "x": -1, "y": -7, "z": 0 },
+			"rotation": { "x": -38, "y": -180, "z": 0 },
 			"origin": { "x": 0.5, "y": 0.1, "z": 0.1 },
-			"scale": 1.1
+			"scaleXyz": { "x":-1.1,"y":1.1,"z":1.1}
 		},
 		"*shiny-down": {
 			"rotate": false,
-			"translation": { "x": 2, "y": 6, "z": 0 },
-			"rotation": { "x": -45, "y": -15, "z": -10 },
+			"translation": { "x": -3, "y": -7, "z": 0 },
+			"rotation": { "x": -45, "y": -165, "z": -5 },
 			"origin": { "x": 0.5, "y": 0.1, "z": 0.1 },
-			"scale": 1.1
+			"scaleXyz": { "x":-1.1,"y":1.1,"z":1.1}
 		}
 
 	},
@@ -119,9 +119,9 @@
 	"heldTpIdleAnimation": "holdbothhandslarge",
 	"heldTpUseAnimation": "twohandplaceblock",
 	"tpHandTransform": {
-		"translation": { "x": -2.35, "y": -0.38, "z": -0.13 },
-		"rotation": { "x": 100, "y": -6, "z": -76 },
-		"origin": { "x": 1, "y": 0, "z": 0 },
+		"translation": { "x": -3.31, "y": -2.5, "z": 0.2 },
+		"rotation": { "x": 95, "y": -5, "z": -77 },
+		"origin": { "x": 1, "y": 1, "z": 0 },
 		"scale": 0.5
 	},
 

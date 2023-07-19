@@ -1,14 +1,14 @@
 {
-	"code": "apron",
+	"code": "clothes",
 	"class": "ItemWearable",
 	"variantgroups": [
 		{ "code": "category",  "states": ["shoulder"] },		
-		{ "code": "shoulder", "combine": "SelectiveMultiply", "onVariant": "category", "states": ["master-apron"] }
+		{ "code": "shoulder", "combine": "SelectiveMultiply", "onVariant": "category", "states": ["ceramist-apron"] }
 	],
 	"shape": { "base": "game:entity/humanoid/seraph" },
 	"storageFlags": 128,
 	"attributes": {
-		"handbook": { "groupBy": "master-apron**" },
+		"handbook": { "groupBy": "ceramist-apron**" },
 		"clothescategory": "shoulder",
 		"warmth": {	"*-master-apron": 0.5 }
 	},

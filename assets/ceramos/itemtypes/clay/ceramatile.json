@@ -41,7 +41,7 @@
 		{ "code": "type",
 		"states":
 				["parsley", "stamens", "petal", "cyanstars", "curles", "triangles",
-				"crosslines", "colorful", "flower", "junglevines", "tulip1", "tulip2"] },
+				"crosslines", "colorful", "flower", "junglevines", "tulipleft", "tulipright"] },
 		{ "code": "surface", "states": ["shiny", "dull"] }
 	],
 
@@ -74,14 +74,14 @@
 		"translation": { "x": 3, "y": -6, "z": 0 },
 		"rotation": { "x": 155, "y": 135, "z": 0 },
 		"origin": { "x": 0, "y": 0, "z": 0 },
-		"scale": 1.1
+		"scaleXyz": {"x": -1.1,"y": 1.1, "z": 1.1 }
 		},
 		"*-shiny": {
 		"rotate": false,
-		"translation": { "x": -1, "y": -6, "z": 0 },
-		"rotation": { "x": 155, "y": 125, "z": -10 },
+		"translation": { "x": 3, "y": -7, "z": 0 },
+		"rotation": { "x": 145, "y": 135, "z": 0 },
 		"origin": { "x": 0, "y": 0, "z": 0 },
-		"scale": 1.1
+		"scaleXyz": {"x": -1.1,"y": 1.1, "z": 1.1 }
 		}
 	},
 	"groundTransform": {

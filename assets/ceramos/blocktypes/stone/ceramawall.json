@@ -10,7 +10,7 @@
 		{"code": "type", 
 		"states": 
 		["parsley", "stamens", "petal", "cyanstars", "curles", "triangles",
-		"crosslines", "colorful", "flower", "junglevines", "tulip1", "tulip2"]},
+		"crosslines", "colorful", "flower", "junglevines", "tulipleft", "tulipright"]},
 		{ "loadFromProperties": "abstract/horizontalorientation" }
 	],
 	"attributes": 
