@@ -10,7 +10,7 @@
 	"attributes": {
 		"handbook": { "groupBy": "ceramist-apron**" },
 		"clothescategory": "shoulder",
-		"warmth": {	"*-master-apron": 0.5 }
+		"warmth": {	"*-ceramist-apron": 0.5 }
 	},
 	"textures": {
 		"seraph": { "base": "ceramos:entity/humanoid/seraphclothes/{category}/{shoulder}" }

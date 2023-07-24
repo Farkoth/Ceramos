@@ -7,7 +7,7 @@
 			"master-hat"] }
 	],
 
-	"shape": { "base": "ceramos:entity/humanoid/seraph/clothing/head/straw-conehat" },
+	"shape": { "base": "game:entity/humanoid/seraph/clothing/head/straw-conehat" },
 	"storageFlags": 128,
 	"attributes": {
 			"clothescategory": "head",
