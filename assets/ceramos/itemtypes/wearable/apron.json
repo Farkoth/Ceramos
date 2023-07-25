@@ -8,9 +8,8 @@
 	"shape": { "base": "game:entity/humanoid/seraph" },
 	"storageFlags": 128,
 	"attributes": {
-		"handbook": { "groupBy": "ceramist-apron**" },
 		"clothescategory": "shoulder",
-		"warmth": {	"*-ceramist-apron": 0.5 }
+		"warmth": 0.5
 	},
 	"textures": {
 		"seraph": { "base": "ceramos:entity/humanoid/seraphclothes/{category}/{shoulder}" }
