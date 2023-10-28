@@ -253,10 +253,11 @@
 	"game:incontainer-item-claycream":				"Clay cream",
 	"ceramos:item-claycream":						"Clay cream",
 
-	"ceramos:item-clothes-shoulder-ceramist-apron*":	"Ceramist apron"
-	
-	
-	
-	
+	"ceramos:item-clothes-shoulder-ceramist-apron*":	"Ceramist apron",
+
+	"ceramos:block-normalamphorae-raw-blue-clay*":		"Raw blue clay amphorae",
+	"ceramos:block-normalamphorae-raw-fire-clay*":		"Raw fire clay amphorae",
+	"ceramos:block-normalamphorae-fired-blue-clay*":		"Blue clay amphorae",
+	"ceramos:block-normalamphorae-fired-fire-clay*":		"Fire clay amphorae"
 	
 }

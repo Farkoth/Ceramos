@@ -8,23 +8,12 @@
 	"variantgroups": [
 		{ "code": "state", "states": ["raw", "fired"] },
 		{ "code": "clay", "states": ["blue", "fire"] },
-		{ "code": "color", "states": ["clay", "green"] }
+		{ "code": "color", "states": ["clay"] }
 	],
 
 	"shape": { "base": "ceramos:block/clay/normalamphorae" },
 	"texturesByType": {
-		"*-raw-*-green": {
-			"all": {  "base": "ceramos:block/clay/raw/{clay}" },
-			"color": {  "base": "ceramos:block/clay/raw/{clay}/{color}" },
-			"ornament": {  "base": "ceramos:block/clay/raw/{clay}/vines" }
 
-		},
-		"*-fired-*-green": {
-			"all": {  "base": "ceramos:block/clay/burned/{clay}" },
-			"color": {  "base": "ceramos:block/clay/burned/{clay}/{color}" },
-			"ornament": {  "base": "ceramos:block/clay/burned/{clay}/vines" },
-			"ornate": {  "base": "ceramos:block/clay/burned/{clay}/ornate" }
-		},
 		"*-raw-*-clay": {
 			"all": {  "base": "ceramos:block/clay/raw/{clay}" },
 			"color": {  "base": "ceramos:block/clay/raw/{clay}/{color}" }
@@ -94,7 +83,7 @@
 			"meltingDuration": 30,
 			"smeltedRatio": 1,
 			"smeltingType": "fire",
-			"smeltedStack": { "type": "block", "code": "ceramos:normalamphorae-fired" },
+			"smeltedStack": { "type": "block", "code": "ceramos:normalamphorae-fired-{clay}-clay" },
 			"requiresContainer": false
 		}
 	},
