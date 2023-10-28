@@ -7,7 +7,7 @@
 
 	"variantgroups": [
 		{ "code": "state", "states": ["raw", "fired"] },
-		{ "code": "clay", "states": ["blue", "fire"] },
+		{ "code": "type", "states": ["blue", "fire"] },
 		{ "code": "color", "states": ["clay"] }
 	],
 
@@ -15,12 +15,12 @@
 	"texturesByType": {
 
 		"*-raw-*-clay": {
-			"all": {  "base": "ceramos:block/clay/raw/{clay}" },
-			"color": {  "base": "ceramos:block/clay/raw/{clay}/{color}" }
+			"all": {  "base": "ceramos:block/clay/raw/{type}" },
+			"color": {  "base": "ceramos:block/clay/raw/{type}/{color}" }
 		},
 		"*-fired-*-clay": {
-			"all": {  "base": "ceramos:block/clay/burned/{clay}" },
-			"color": {  "base": "ceramos:block/clay/burned/{clay}/{color}" }
+			"all": {  "base": "ceramos:block/clay/burned/{type}" },
+			"color": {  "base": "ceramos:block/clay/burned/{type}/{color}" }
 		}
 	},
 
@@ -78,14 +78,12 @@
 	},
 
 	"combustiblePropsByType": {
-		"normalamphorae-raw": {
 			"meltingPoint": 600,
 			"meltingDuration": 30,
 			"smeltedRatio": 1,
 			"smeltingType": "fire",
-			"smeltedStack": { "type": "block", "code": "ceramos:normalamphorae-fired-{clay}-clay" },
+			"smeltedStack": { "type": "block", "code": "ceramos:normalamphorae-fired-{type}-clay" },
 			"requiresContainer": false
-		}
 	},
 	"collisionbox": {
 		"x1": 0.3125, "y1": 0, "z1": 0.3125,
