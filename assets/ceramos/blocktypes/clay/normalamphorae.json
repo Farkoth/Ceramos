@@ -78,12 +78,14 @@
 	},
 
 	"combustiblePropsByType": {
+		"normalamphorae-raw-*-clay": {
 			"meltingPoint": 600,
 			"meltingDuration": 30,
 			"smeltedRatio": 1,
 			"smeltingType": "fire",
 			"smeltedStack": { "type": "block", "code": "ceramos:normalamphorae-fired-{type}-clay" },
 			"requiresContainer": false
+		}
 	},
 	"collisionbox": {
 		"x1": 0.3125, "y1": 0, "z1": 0.3125,

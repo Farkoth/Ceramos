@@ -28,6 +28,7 @@
 				"states": ["north", "east", "south", "west", "up", "down"] }
 	],
 
+
 	"shapeByType": {
 		"*dull-down": { "base": "ceramos:block/clay/cerama" },
 		"*dull-up": { "base": "ceramos:block/clay/cerama", "rotateX": 0 }, 
