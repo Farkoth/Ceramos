@@ -1,40 +1,64 @@
 [
 	{
-   		"op": "addeach",
-    	"path": "/attributes/tradeProps/selling/list/-",
-    	"value": [
+		"op": "addeach",
+		"path": "/selling/list/-",
+		"value": [
 			{
-			"code": "ceramos:ceramatile-petal-dull",
-			"type": "item",
-			"stacksize": 12,
-			"stock": { "avg": 8, "var": 0.25 },
-			"price": { "avg": 14, "var": 1.5 }
+				"code": "ceramos:ceramatile-petal-dull",
+				"type": "item",
+				"stacksize": 12,
+				"stock": {
+					"avg": 8,
+					"var": 0.25
+				},
+				"price": {
+					"avg": 14,
+					"var": 1.5
+				}
 			},
 
 			{
-			"code": "ceramos:ceramatile-stamens-dull",
-			"type": "item",
-			"stacksize": 12,
-			"stock": { "avg": 8, "var": 0.25 },
-			"price": { "avg": 14, "var": 1.5 }
+				"code": "ceramos:ceramatile-stamens-dull",
+				"type": "item",
+				"stacksize": 12,
+				"stock": {
+					"avg": 8,
+					"var": 0.25
+				},
+				"price": {
+					"avg": 14,
+					"var": 1.5
+				}
 			},
 
 			{
-			"code": "ceramos:ceramatile-cyanstars-dull",
-			"type": "item",
-			"stacksize": 12,
-			"stock": { "avg": 8, "var": 0.25 },
-			"price": { "avg": 14, "var": 1.5 }
+				"code": "ceramos:ceramatile-cyanstars-dull",
+				"type": "item",
+				"stacksize": 12,
+				"stock": {
+					"avg": 8,
+					"var": 0.25
+				},
+				"price": {
+					"avg": 14,
+					"var": 1.5
+				}
 			},
 
 			{
-			"code": "ceramos:ceramatile-parsley-dull",
-			"type": "item",
-			"stacksize": 12,
-			"stock": { "avg": 8, "var": 0.25 },
-			"price": { "avg": 14, "var": 1.5 }
+				"code": "ceramos:ceramatile-parsley-dull",
+				"type": "item",
+				"stacksize": 12,
+				"stock": {
+					"avg": 8,
+					"var": 0.25
+				},
+				"price": {
+					"avg": 14,
+					"var": 1.5
+				}
 			}
 		],
-	"file": "game:entities/humanoid/trader-buildmaterials.json"
+		"file": "game:config/tradelists/trader-buildmaterials.json"
 	}
 ]

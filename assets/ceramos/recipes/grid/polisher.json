@@ -5,7 +5,7 @@
 		"R": { "type": "item", "code": "game:stone-*", "quantity": 1, "name": "material", "allowedVariants": [ "andesite", "granite", "basalt", "peridotite" ] },
 		"N": { "type": "item", "code": "game:metalnailsandstrips-iron", "quantity": 1 },
         "S": { "type": "item", "code": "game:stick", "quantity": 1 },
-        "L": { "type": "item", "code": "game:leather-plain", "quantity": 1 }
+        "L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 }
 	},
 	"width": 2,
 	"height": 2,
