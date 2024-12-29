@@ -4,7 +4,7 @@
 	"name": "Ceramos",
 	"authors": [ "Farkoth" ],
 	"description": "Make your residence looks like Roman Villa!",
-	"version": "0.5.1",
+	"version": "0.5.2",
 	"dependency": {
 		"game": "1.18.2"
 	}
