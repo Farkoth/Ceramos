@@ -1,8 +1,8 @@
 [
 	{
    		"op": "addeach",
-    	"path": "/attributes/tradeProps/selling/list/-",
-    	"value": [
+		   "path": "/selling/list/-",
+		   "value": [
 			{
 			"code": "ceramos:ceramatile-petal-dull",
 			"type": "item",
@@ -35,6 +35,6 @@
 			"price": { "avg": 14, "var": 1.5 }
 			}
 		],
-	"file": "game:entities/humanoid/trader-buildmaterials.json"
+		"file": "game:config/tradelists/trader-buildmaterials.json",
 	}
 ]
